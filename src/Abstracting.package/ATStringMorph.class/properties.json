@@ -1,0 +1,16 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"string",
+		"cursorIndex",
+		"hovered" ],
+	"name" : "ATStringMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"advanceForIndex:" : "TB 4/23/2018 16:40",
+		"contents" : "TB 4/23/2018 16:33",
+		"contents:" : "TB 4/23/2018 16:32",
+		"cursorIndex" : "TB 4/23/2018 16:36",
+		"cursorIndex:" : "TB 4/23/2018 16:44",
+		"deleteAfterCursor" : "TB 4/23/2018 17:02",
+		"deleteBeforeCursor" : "TB 4/23/2018 17:01",
+		"drawOn:" : "TB 4/23/2018 16:49",
+		"editable" : "TB 4/23/2018 16:52",
+		"fitContents" : "TB 4/23/2018 16:31",
+		"fontToUse" : "TB 4/23/2018 16:34",
+		"handlesKeyboard:" : "TB 4/23/2018 16:46",
+		"handlesMouseDown:" : "TB 4/23/2018 16:43",
+		"handlesMouseOver:" : "TB 4/23/2018 16:49",
+		"indexForAdvance:" : "TB 4/23/2018 16:45",
+		"initialize" : "TB 4/23/2018 16:48",
+		"insertAtCursor:" : "TB 4/23/2018 17:00",
+		"keyStroke:" : "TB 4/23/2018 16:56",
+		"mouseDown:" : "TB 4/23/2018 16:45",
+		"mouseEnter:" : "TB 4/23/2018 16:47",
+		"mouseLeave:" : "TB 4/23/2018 16:47" } }
