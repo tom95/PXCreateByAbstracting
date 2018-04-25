@@ -1,5 +1,5 @@
 as yet unclassified
 takeCursorAtEnd
 
-	self cursorIndex: self contents size-1.
+	self cursorIndex: self contents size.
 	self markActive

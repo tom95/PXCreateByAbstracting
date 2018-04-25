@@ -20,4 +20,6 @@ handleKeyStroke: anEvent reportTo: aTextView
 		
 		(anEvent controlKeyPressed or: [anEvent commandKeyPressed]) ifFalse: [
 			self insertAtCursor: anEvent keyCharacter.
-			self cursorIndex: self cursorIndex + 1]].
+			self cursorIndex: self cursorIndex + 1.
+			(self breakingCharacters includes: anEvent keyCharacter) ifTrue: [
+				]]]

@@ -8,7 +8,7 @@ text: aString
 	
 	ranges overlappingPairsDo: [:range :nextRange | 
 		self addMorphBack: ((ATWord newForFont: font)
-			contents: (self trimCrAndTab: (aString copyFrom: range start to: nextRange start - 1));
+			untrimmedContents: aString from: range start to: nextRange start - 1;
 			color: (self colorMappingFor: range type);
 			when: #activated send: #activeWord: to: self;
 			yourself).

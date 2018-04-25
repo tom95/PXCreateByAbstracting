@@ -1,4 +1,4 @@
 as yet unclassified
 outerBounds
 
-	^ self bounds expandBy: 1
+	^ self bounds expandBy: 4
