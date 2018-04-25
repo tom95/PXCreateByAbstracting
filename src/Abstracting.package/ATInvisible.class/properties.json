@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"string",
-		"cursorIndex",
-		"hovered" ],
-	"name" : "ATStringMorph",
+		 ],
+	"name" : "ATInvisible",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "ATToken",
 	"type" : "normal" }

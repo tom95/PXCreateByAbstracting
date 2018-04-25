@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ATLineBreak",
+		"string",
+		"cursorIndex",
+		"hovered" ],
+	"name" : "ATWord",
 	"pools" : [
 		 ],
-	"super" : "ATInvisible",
+	"super" : "ATToken",
 	"type" : "normal" }

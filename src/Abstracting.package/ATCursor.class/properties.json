@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ATLineBreak",
+		"x",
+		"y",
+		"maxX",
+		"lineHeight" ],
+	"name" : "ATCursor",
 	"pools" : [
 		 ],
-	"super" : "ATInvisible",
+	"super" : "Object",
 	"type" : "normal" }

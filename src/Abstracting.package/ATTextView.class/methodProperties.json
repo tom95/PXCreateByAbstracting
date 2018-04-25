@@ -2,6 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"colorMappingFor:" : "TB 4/23/2018 16:27",
+		"activeWord" : "TB 4/25/2018 12:51",
+		"activeWord:" : "TB 4/25/2018 14:16",
+		"colorMappingFor:" : "TB 4/25/2018 12:32",
+		"fontToUse" : "TB 4/25/2018 12:16",
+		"handlesKeyboard:" : "TB 4/25/2018 12:51",
 		"initialize" : "TB 4/23/2018 14:10",
-		"text:" : "TB 4/23/2018 16:34" } }
+		"keyStroke:" : "TB 4/25/2018 12:51",
+		"text:" : "TB 4/25/2018 14:11",
+		"trimCrAndTab:" : "TB 4/25/2018 14:11" } }

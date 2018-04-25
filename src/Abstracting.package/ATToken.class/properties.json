@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ATLineBreak",
+		"font" ],
+	"name" : "ATToken",
 	"pools" : [
 		 ],
-	"super" : "ATInvisible",
+	"super" : "Morph",
 	"type" : "normal" }

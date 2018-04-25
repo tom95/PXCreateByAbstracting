@@ -2,7 +2,7 @@ as yet unclassified
 colorMappingFor: aSymbol
 
 	| blue brown foreground green orange purple red yellow turquoise gray literal |
-	foreground := Color fromString: '#494b53'.
+	foreground := Color fromString: '#4a4c54'.
 	gray := Color fromString: '#696c77'.
 	red := Color fromString: '#ca1243'.
 	orange := Color fromString: '#e45649'.
@@ -43,8 +43,8 @@ colorMappingFor: aSymbol
 		#undefinedKeyword -> red.
 		#undefinedBinary -> red.
 		#undefinedUnary -> red.
-		#patternBinary -> purple.
-		#patternUnary -> purple.
+		#patternBinary -> foreground.
+		#patternUnary -> foreground.
 		#self -> brown.
 		#super -> brown.
 		#true -> literal.
@@ -59,6 +59,7 @@ colorMappingFor: aSymbol
 		#argument -> turquoise.
 		#blockArgColon -> turquoise.
 		#leftParenthesis -> foreground.
+		#leftParenthesis1 -> foreground.
 		#rightParenthesis -> foreground.
 		#rightParenthesis1 -> foreground.
 		#leftParenthesis2 -> foreground.
@@ -122,7 +123,7 @@ colorMappingFor: aSymbol
 		#incompleteIdentifier -> red.
 		#tempVar -> gray.
 		#patternTempVar -> gray.
-		#patternKeyword -> blue.
+		#patternKeyword -> foreground.
 		#poolConstant -> gray.
 		#classVar -> blue.
 		#globalVar -> blue}) at: aSymbol

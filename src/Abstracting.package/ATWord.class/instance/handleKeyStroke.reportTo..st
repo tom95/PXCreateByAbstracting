@@ -1,13 +1,13 @@
 as yet unclassified
-keyStroke: anEvent
+handleKeyStroke: anEvent reportTo: aTextView
 
 	| key |
 	key := anEvent keyString.
 	
 	key = '<left>' ifTrue: [
-		^ self cursorIndex: self cursorIndex - 1].
+		^ self moveCursor: -1].
 	key = '<right>' ifTrue: [
-		^ self cursorIndex: self cursorIndex + 1].
+		^ self moveCursor: 1].
 	(key = '<tab>' or: [key = '<Shift-tab>']) ifTrue: [
 		"todo: move to next token"
 		^ self].
