@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 untrimmedContents: aString from: start to: stop
 
 	self contents: (aString copyFrom: start to: stop) withoutTrailingBlanks.

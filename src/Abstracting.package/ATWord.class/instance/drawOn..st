@@ -1,9 +1,9 @@
-as yet unclassified
+drawing
 drawOn: aCanvas
 
-	self selected
-		ifTrue: [aCanvas fillRectangle: self outerBounds color: Color gray]
-		ifFalse: [hovered ifTrue: [aCanvas frameRectangle: (self outerBounds insetBy: 3) color: Color red]].
+	super drawOn: aCanvas.
+	
+	(hovered and: [selected not]) ifTrue: [aCanvas frameRectangle: (self outerBounds insetBy: 3) color: Color red].
 	
 	aCanvas drawString: self contents in: self bounds font: self font color: self color.
 	

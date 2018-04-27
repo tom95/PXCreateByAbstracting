@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"activeWord" ],
+		"activeWord",
+		"selectionStart",
+		"selectionStop" ],
 	"name" : "ATTextView",
 	"pools" : [
 		 ],

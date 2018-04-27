@@ -10,7 +10,7 @@
 		"cursorIndex",
 		"hovered",
 		"trailingWhitespaces",
-		"selected" ],
+		"pressed" ],
 	"name" : "ATWord",
 	"pools" : [
 		 ],

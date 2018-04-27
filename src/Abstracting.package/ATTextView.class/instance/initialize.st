@@ -3,6 +3,8 @@ initialize
 
 	super initialize.
 	
+	selectionStart := 0.
+	
 	self
 		color: Color white;
 		layoutPolicy: ATLineLayout new;

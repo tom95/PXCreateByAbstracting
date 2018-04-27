@@ -11,6 +11,7 @@ text: aString
 			untrimmedContents: aString from: range start to: nextRange start - 1;
 			color: (self colorMappingFor: range type);
 			when: #activated send: #activeWord: to: self;
+			when: #startSelection send: #startSelectionFrom: to: self;
 			yourself).
 		
 		aString from: range end + 1 to: nextRange start - 1 do: [:char |

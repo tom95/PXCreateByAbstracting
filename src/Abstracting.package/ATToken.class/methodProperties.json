@@ -4,8 +4,11 @@
 	"instance" : {
 		"advanceCursor:placeAt:" : "TB 4/25/2018 12:13",
 		"breakingCharacters" : "TB 4/25/2018 12:24",
+		"drawOn:" : "TB 4/27/2018 15:12",
 		"font" : "TB 4/25/2018 12:26",
 		"font:" : "TB 4/25/2018 12:26",
 		"nextCursorDestination" : "TB 4/25/2018 13:09",
 		"previousCursorDestination" : "TB 4/25/2018 13:08",
+		"selected" : "TB 4/25/2018 21:52",
+		"selected:" : "TB 4/25/2018 21:52",
 		"wantsCursor" : "TB 4/25/2018 12:57" } }

@@ -1,4 +1,4 @@
-as yet unclassified
+cursor handling
 cursorIndex
 
 	^ cursorIndex

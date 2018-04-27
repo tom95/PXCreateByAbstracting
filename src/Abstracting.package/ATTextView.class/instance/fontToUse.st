@@ -1,4 +1,4 @@
 as yet unclassified
 fontToUse
 
-	^ TextStyle default defaultFont
+	^ TextStyle default fontOfSize: 32

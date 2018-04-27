@@ -1,4 +1,4 @@
-as yet unclassified
+cursor handling
 moveCursor: aNumber
 
 	self cursorIndex + aNumber < 0 ifTrue: [^ self previousCursorDestination ifNotNil: #takeCursorAtEnd].

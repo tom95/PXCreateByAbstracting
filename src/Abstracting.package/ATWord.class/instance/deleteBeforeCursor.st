@@ -1,4 +1,4 @@
-as yet unclassified
+editing
 deleteBeforeCursor
 
 	self cursorIndex: self cursorIndex - 1.
