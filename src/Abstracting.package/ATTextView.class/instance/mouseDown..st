@@ -3,6 +3,9 @@ mouseDown: anEvent
 
 	| clickedOn |
 	clickedOn := (self morphsAt: anEvent position) first.
-	selectionStart := (self submorphIndexOf: clickedOn) ifNil: [self deselectAll. 0].
+	clickedOn == self ifTrue: [ self deselectAll. selectionStart := 0. ^ self].
 	
-	selectionStart > 0 ifTrue: [self activeWord: clickedOn]
+	selectionStart := self submorphIndexOf: clickedOn.
+	self activeWord: clickedOn.
+	
+	(clickedOn handlesMouseDown: anEvent) ifTrue: [clickedOn mouseDown: anEvent].

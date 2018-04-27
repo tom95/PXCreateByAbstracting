@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"handlesMouseDown:" : "cjg 4/27/2018 18:20",
+		"handlesMouseMove:" : "cjg 4/27/2018 18:19",
+		"mouseDown:" : "cjg 4/27/2018 18:20",
+		"mouseMove:" : "cjg 4/27/2018 18:20",
+		"mouseUp:" : "cjg 4/27/2018 18:19" } }
