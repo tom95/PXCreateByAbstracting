@@ -1,0 +1,18 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"string",
+		"cursorIndex",
+		"hovered",
+		"trailingWhitespaces",
+		"pressed" ],
+	"name" : "ATVisible",
+	"pools" : [
+		 ],
+	"super" : "ATToken",
+	"type" : "normal" }

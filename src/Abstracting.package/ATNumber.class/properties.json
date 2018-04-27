@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"string",
-		"cursorIndex",
-		"hovered",
-		"trailingWhitespaces",
-		"pressed" ],
-	"name" : "ATWord",
+		 ],
+	"name" : "ATNumber",
 	"pools" : [
 		 ],
-	"super" : "ATToken",
+	"super" : "ATLiteral",
 	"type" : "normal" }
