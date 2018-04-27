@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"activeWord",
-		"selectionStart",
-		"selectionStop" ],
-	"name" : "ATTextView",
+		"textView" ],
+	"name" : "ATTextEditor",
 	"pools" : [
 		 ],
 	"super" : "PHWidget",

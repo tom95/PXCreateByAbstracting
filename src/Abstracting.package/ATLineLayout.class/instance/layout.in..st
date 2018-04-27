@@ -7,4 +7,7 @@ layout: aMorph in: aRectangle
 		lineHeight: aMorph fontToUse height * 1.5.
 	
 	aMorph submorphsDo: [:morph |
-		morph advanceCursor: cursor placeAt: [:position | morph position: position + aRectangle origin]]
+		morph advanceCursor: cursor placeAt: [:position | morph position: position + aRectangle origin]].
+	
+	" equals the total extent "
+	^ cursor position
