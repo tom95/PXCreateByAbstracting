@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"handlesMouseMove:" : "TB 4/27/2018 18:20",
+		"initialize" : "TB 4/27/2018 18:21",
+		"mouseDown:" : "TB 4/27/2018 18:18",
+		"mouseMove:" : "TB 4/27/2018 18:19",
+		"mouseUp:" : "TB 4/27/2018 18:21" } }
