@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"fromSource:in:" : "TB 5/6/2018 14:34" },
+		 },
 	"instance" : {
 		"addMessagePatternOf:withArguments:do:" : "TB 5/6/2018 15:57",
 		"afterChange:from:previous:" : "TB 5/6/2018 22:47",
 		"blockDepth" : "TB 5/6/2018 14:57",
 		"bubbleAfter" : "TB 5/6/2018 18:54",
-		"bubbleBefore" : "TB 5/6/2018 18:50",
+		"bubbleBefore" : "cjg 5/8/2018 16:03",
 		"bubbleColor" : "TB 5/6/2018 16:17",
 		"clearSelection" : "TB 5/6/2018 23:17",
 		"click:" : "TB 5/7/2018 08:48",
