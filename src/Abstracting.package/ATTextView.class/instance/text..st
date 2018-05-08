@@ -10,6 +10,7 @@ text: aString
 		self addMorphBack: (((self classForType: range type) newForFont: font)
 			untrimmedContents: aString from: range start to: nextRange start - 1;
 			color: (self colorMappingFor: range type);
+			tokenType: range type;
 			when: #activated send: #activeWord: to: self;
 			when: #startSelection send: #startSelectionFrom: to: self;
 			yourself).

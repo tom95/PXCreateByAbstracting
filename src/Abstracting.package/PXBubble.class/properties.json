@@ -1,0 +1,15 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"highlight",
+		"selected" ],
+	"name" : "PXBubble",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

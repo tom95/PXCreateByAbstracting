@@ -1,0 +1,15 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"identifier",
+		"statement" ],
+	"name" : "PXAssignment",
+	"pools" : [
+		 ],
+	"super" : "PXStatement",
+	"type" : "normal" }

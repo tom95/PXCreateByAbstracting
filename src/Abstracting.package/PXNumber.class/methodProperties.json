@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"handlesMouseMove:" : "TB 5/6/2018 16:20",
+		"initialize" : "TB 5/6/2018 16:20",
+		"isNumber" : "TB 5/7/2018 00:16",
+		"mouseMove:" : "TB 5/6/2018 18:35",
+		"mouseUp:" : "TB 5/6/2018 16:20",
+		"startDrag:" : "TB 5/6/2018 18:32" } }

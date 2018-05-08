@@ -1,0 +1,14 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PXMethod",
+	"pools" : [
+		 ],
+	"super" : "PXBubble",
+	"type" : "normal" }

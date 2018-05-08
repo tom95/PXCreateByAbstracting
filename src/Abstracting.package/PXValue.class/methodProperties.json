@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"subclassFor:" : "TB 5/6/2018 20:00",
+		"value:" : "TB 5/6/2018 12:27" },
+	"instance" : {
+		"afterChange:from:previous:" : "TB 5/7/2018 08:36",
+		"displayValueAsString" : "TB 5/6/2018 12:32",
+		"handleKeyStroke:from:" : "TB 5/7/2018 08:21",
+		"initialize" : "TB 5/6/2018 12:47",
+		"innerBubble" : "TB 5/7/2018 18:53",
+		"placeCursorAt:" : "TB 5/6/2018 22:17",
+		"selectFrom:to:" : "TB 5/7/2018 08:41",
+		"updateValueFrom:" : "TB 5/7/2018 08:36",
+		"value" : "TB 5/6/2018 12:27",
+		"value:" : "TB 5/6/2018 12:32",
+		"wantsIdentifierDrop" : "TB 5/6/2018 17:02" } }

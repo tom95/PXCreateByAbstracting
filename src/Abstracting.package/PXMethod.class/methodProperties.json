@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"drawOn:" : "TB 5/6/2018 19:48",
+		"initialize" : "TB 5/6/2018 16:04",
+		"innerBubble" : "TB 5/7/2018 18:49",
+		"root" : "TB 5/6/2018 17:03",
+		"selectByClick" : "TB 5/7/2018 13:02",
+		"setFromSource:in:" : "TB 5/6/2018 17:29" } }

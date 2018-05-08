@@ -10,7 +10,8 @@
 		"cursorIndex",
 		"hovered",
 		"trailingWhitespaces",
-		"pressed" ],
+		"pressed",
+		"tokenType" ],
 	"name" : "ATVisible",
 	"pools" : [
 		 ],

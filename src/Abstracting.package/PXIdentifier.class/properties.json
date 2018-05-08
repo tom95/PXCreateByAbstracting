@@ -1,0 +1,16 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hasMouseDown",
+		"assignLine",
+		"highlighted" ],
+	"name" : "PXIdentifier",
+	"pools" : [
+		 ],
+	"super" : "PXValue",
+	"type" : "normal" }

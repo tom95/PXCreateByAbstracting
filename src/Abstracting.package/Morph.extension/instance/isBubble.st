@@ -1,0 +1,4 @@
+*Abstracting
+isBubble
+
+	^ false

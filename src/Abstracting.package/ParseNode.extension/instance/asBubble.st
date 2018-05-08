@@ -1,0 +1,4 @@
+*Abstracting
+asBubble
+
+	^ self subclassResponsibility

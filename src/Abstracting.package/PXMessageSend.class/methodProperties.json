@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"receiver:selector:arguments:" : "TB 5/6/2018 12:35" },
+	"instance" : {
+		"addTrailingTextEntry" : "TB 5/6/2018 21:31",
+		"focusArgumentAt:" : "TB 5/6/2018 20:58",
+		"focusSelector" : "TB 5/6/2018 20:51",
+		"handleKeyStroke:from:" : "TB 5/6/2018 22:09",
+		"setReceiver:selector:arguments:" : "TB 5/6/2018 21:31" } }

@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"=" : "TB 5/5/2018 23:22",
+		"afterEdit" : "TB 5/5/2018 23:25",
 		"handlesMouseDown:" : "TB 4/27/2018 18:22",
 		"handlesMouseMove:" : "TB 4/27/2018 18:20",
 		"initialize" : "TB 4/27/2018 18:21",
 		"mouseDown:" : "TB 4/27/2018 18:28",
 		"mouseMove:" : "TB 4/27/2018 18:40",
-		"mouseUp:" : "TB 4/27/2018 18:41" } }
+		"mouseUp:" : "TB 4/27/2018 18:41",
+		"sameIdentifiersDo:" : "TB 5/5/2018 23:21" } }

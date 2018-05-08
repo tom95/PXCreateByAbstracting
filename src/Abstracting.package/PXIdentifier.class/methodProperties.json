@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"afterChange:from:previous:" : "TB 5/6/2018 22:50",
+		"clearHighlighted" : "TB 5/6/2018 22:33",
+		"constantNumberIfFound:ifNone:" : "TB 5/7/2018 00:20",
+		"displayValueAsString" : "TB 5/6/2018 12:32",
+		"dropTargetAt:do:ifNone:" : "TB 5/6/2018 22:25",
+		"handleKeyStroke:from:" : "TB 5/7/2018 08:31",
+		"handlesMouseMove:" : "TB 5/6/2018 17:00",
+		"initialize" : "TB 5/6/2018 17:01",
+		"isIdentifier" : "TB 5/6/2018 22:44",
+		"matches:" : "TB 5/7/2018 00:14",
+		"mouseMove:" : "TB 5/6/2018 22:34",
+		"mouseUp:" : "TB 5/7/2018 00:22",
+		"startDrag:" : "TB 5/6/2018 18:32",
+		"substituteTo:" : "TB 5/7/2018 00:24",
+		"updateBold" : "TB 5/6/2018 22:50",
+		"value:" : "TB 5/6/2018 22:50" } }
