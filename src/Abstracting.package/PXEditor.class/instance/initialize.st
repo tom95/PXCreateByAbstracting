@@ -2,6 +2,8 @@ as yet unclassified
 initialize 
 	
 	super initialize.
-	self withLayout; vertical: false.
 	
-	
+	self
+		commandPalette: PXCommandPalette new;
+		withLayout;
+		vertical: false

@@ -1,4 +1,5 @@
 as yet unclassified
 selectByClick
+	" we can't be selected, so just clear any existing selections "
 
 	self root clearSelection

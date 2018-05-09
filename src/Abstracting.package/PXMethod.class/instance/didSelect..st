@@ -2,4 +2,4 @@ as yet unclassified
 didSelect: aPXBubble
 	
 	self selectedBubble: aPXBubble.
-	self commandPalette didSelect: aPXBubble.
+	self triggerEvent: #selectedBubble with: aPXBubble
