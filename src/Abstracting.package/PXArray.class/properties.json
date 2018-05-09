@@ -1,0 +1,14 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"closingTextEntry" ],
+	"name" : "PXArray",
+	"pools" : [
+		 ],
+	"super" : "PXValue",
+	"type" : "normal" }
