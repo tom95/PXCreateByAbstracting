@@ -2,7 +2,7 @@ accessing
 didSelect: aPXBubble
 
 	aPXBubble
-		ifNil: [ buttons do: [ :b | b disabled: true]]
+		ifNil: [self disableAll]
 		ifNotNil: [
 			"TODO check capabilities"
 			buttons do: [ :b | b disabled: false]].
