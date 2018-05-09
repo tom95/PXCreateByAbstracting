@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedBubble",
+		"method",
 		"commandPalette" ],
-	"name" : "PXMethod",
+	"name" : "PXEditor",
 	"pools" : [
 		 ],
-	"super" : "PXBubble",
+	"super" : "PHWidget",
 	"type" : "normal" }

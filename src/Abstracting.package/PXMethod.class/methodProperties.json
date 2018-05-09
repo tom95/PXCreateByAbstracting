@@ -1,10 +1,15 @@
 {
 	"class" : {
-		"fromSource:in:" : "cjg 5/8/2018 15:59" },
+		"fromSource:in:" : "cjg 5/9/2018 13:56" },
 	"instance" : {
+		"commandPalette" : "cjg 5/9/2018 15:16",
+		"commandPalette:" : "cjg 5/9/2018 15:16",
+		"didSelect:" : "cjg 5/9/2018 15:07",
 		"drawOn:" : "TB 5/6/2018 19:48",
 		"initialize" : "TB 5/6/2018 16:04",
 		"innerBubble" : "TB 5/7/2018 18:49",
 		"root" : "TB 5/6/2018 17:03",
 		"selectByClick" : "TB 5/7/2018 13:02",
+		"selectedBubble" : "cjg 5/9/2018 15:04",
+		"selectedBubble:" : "cjg 5/9/2018 15:04",
 		"setFromSource:in:" : "TB 5/6/2018 17:29" } }
