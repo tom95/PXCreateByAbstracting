@@ -5,6 +5,6 @@ addTemporaryVariable: aName
 		ifNil: [
 			self addMorph: (declarations := PXTemporaryDeclaration
 				blockArguments: #()
-				temporaries: {PXIdentifier value: aName})]
+				temporaries: {PXVariableName name: aName})]
 		ifNotNil: [
 			declarations addTemporaryVariable: aName]

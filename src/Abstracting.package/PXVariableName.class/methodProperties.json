@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"name:" : "TB 5/9/2018 14:16" },
+	"instance" : {
+		"clearHighlighted" : "TB 5/6/2018 22:33",
+		"constantNumberIfFound:ifNone:" : "TB 5/7/2018 00:20",
+		"dropTargetAt:do:ifNone:" : "TB 5/9/2018 14:32",
+		"handlesMouseMove:" : "TB 5/6/2018 17:00",
+		"initialize" : "TB 5/9/2018 14:36",
+		"isVariableName" : "TB 5/9/2018 14:34",
+		"matches:" : "TB 5/9/2018 22:16",
+		"mouseMove:" : "TB 5/6/2018 22:34",
+		"mouseUp:" : "TB 5/7/2018 00:22",
+		"name" : "TB 5/9/2018 14:14",
+		"name:" : "TB 5/9/2018 14:15",
+		"startDrag:" : "TB 5/9/2018 14:35",
+		"substituteTo:" : "TB 5/9/2018 22:14" } }

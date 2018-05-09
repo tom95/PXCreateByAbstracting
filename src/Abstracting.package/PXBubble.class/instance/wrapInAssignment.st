@@ -1,4 +1,4 @@
 edit actions
 wrapInAssignment
 
-	(self replaceBy: [PXAssignment identifier: (PXIdentifier value: '') statement: self]) focusIdentifier
+	(self replaceBy: [PXAssignment identifier: (PXVariableName name: '') statement: self]) focusIdentifier

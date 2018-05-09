@@ -1,0 +1,17 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"textEntry",
+		"assignLine",
+		"hasMouseDown" ],
+	"name" : "PXVariableName",
+	"pools" : [
+		 ],
+	"super" : "PXBubble",
+	"type" : "normal" }

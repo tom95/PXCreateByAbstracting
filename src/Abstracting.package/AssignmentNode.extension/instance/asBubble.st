@@ -1,4 +1,4 @@
 *Abstracting
 asBubble
 
-	^ PXAssignment identifier: self variable asBubble statement: self value asBubble
+	^ PXAssignment identifier: self variable asNameBubble statement: self value asBubble
