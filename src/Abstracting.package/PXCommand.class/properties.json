@@ -1,0 +1,14 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PXCommand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
