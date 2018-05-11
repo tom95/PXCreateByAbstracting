@@ -1,5 +1,5 @@
 as yet unclassified
-selectByClick
+select
 
 	| textEntry |
 	self root clearSelection.

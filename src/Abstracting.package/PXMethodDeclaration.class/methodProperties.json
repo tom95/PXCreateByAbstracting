@@ -2,6 +2,8 @@
 	"class" : {
 		"selector:argumentNames:" : "TB 5/6/2018 15:53" },
 	"instance" : {
+		"arguments" : "TB 5/10/2018 09:00",
 		"innerBubble" : "TB 5/7/2018 18:49",
 		"isRoot" : "TB 5/6/2018 16:08",
+		"selector" : "TB 5/10/2018 09:01",
 		"setSelector:argumentNames:" : "TB 5/6/2018 15:59" } }

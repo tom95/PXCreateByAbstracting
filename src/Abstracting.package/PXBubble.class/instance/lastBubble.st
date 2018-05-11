@@ -1,4 +1,4 @@
 as yet unclassified
 lastBubble
 
-	^ self submorphs reverseDetect: #isBubble ifNone: []
+	^ self submorphs reversed detect: #isBubble ifNone: []

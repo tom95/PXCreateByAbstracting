@@ -1,5 +1,5 @@
 as yet unclassified
-selectByClick
+select
 	" we can't be selected, so just clear any existing selections "
 
 	self root clearSelection
