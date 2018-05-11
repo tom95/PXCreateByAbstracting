@@ -1,0 +1,15 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bubble",
+		"previousOwner" ],
+	"name" : "PXDeleteOuter",
+	"pools" : [
+		 ],
+	"super" : "PXCommand",
+	"type" : "normal" }

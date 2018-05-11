@@ -1,5 +1,6 @@
 as yet unclassified
 bubbleBefore
+	"helper method for previousBubble"
 
 	| m |
 	m := self.

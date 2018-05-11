@@ -1,0 +1,15 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"identifier",
+		"assignment" ],
+	"name" : "PXUseIdentiferForAssignment",
+	"pools" : [
+		 ],
+	"super" : "PXCommand",
+	"type" : "normal" }

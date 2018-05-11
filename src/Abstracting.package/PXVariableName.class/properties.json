@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
 		"textEntry",
 		"assignLine",
-		"hasMouseDown" ],
+		"hasMouseDown",
+		"highlighted" ],
 	"name" : "PXVariableName",
 	"pools" : [
 		 ],

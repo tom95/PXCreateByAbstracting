@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"beforeKeystroke:from:" : "TB 5/11/2018 23:35",
 		"displayValueAsString" : "TB 5/7/2018 08:39",
-		"updateValueFrom:" : "TB 5/7/2018 08:37" } }
+		"printOn:" : "TB 5/12/2018 00:59",
+		"validValue" : "TB 5/11/2018 23:33" } }

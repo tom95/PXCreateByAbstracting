@@ -2,7 +2,7 @@ as yet unclassified
 substituteTo: aToken
 
 	| simpleReplace |
-	simpleReplace := [aToken replaceBy: [PXIdentifier value: self name]].
+	simpleReplace := [self run: (PXReplace bubble: aToken with: (PXIdentifier value: self name))].
 	
 	aToken isNumber
 		ifTrue: [

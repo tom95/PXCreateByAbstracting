@@ -1,0 +1,15 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"previousBubble",
+		"newBubble" ],
+	"name" : "PXReplace",
+	"pools" : [
+		 ],
+	"super" : "PXCommand",
+	"type" : "normal" }

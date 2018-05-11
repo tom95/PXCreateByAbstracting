@@ -1,5 +1,6 @@
 as yet unclassified
 bubbleAfter
+	"helper method for nextBubble"
 
 	| m |
 	m := self.

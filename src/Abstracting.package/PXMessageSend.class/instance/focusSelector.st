@@ -1,4 +1,4 @@
 as yet unclassified
 focusSelector
 
-	messagePartTextEntries first grabKeyboard
+	messagePartTextEntries first takeCursorAtStart

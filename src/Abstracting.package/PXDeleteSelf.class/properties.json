@@ -1,0 +1,16 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bubble",
+		"previousOwner",
+		"previousIndex" ],
+	"name" : "PXDeleteSelf",
+	"pools" : [
+		 ],
+	"super" : "PXCommand",
+	"type" : "normal" }

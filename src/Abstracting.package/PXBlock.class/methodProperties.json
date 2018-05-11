@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"empty" : "TB 5/12/2018 00:01",
 		"statements:temporaries:arguments:" : "TB 5/6/2018 14:48" },
 	"instance" : {
 		"addTemporaryVariable:" : "TB 5/9/2018 14:15",
@@ -11,8 +12,8 @@
 		"drawOn:" : "TB 5/6/2018 19:49",
 		"focusFirstStatement" : "TB 5/6/2018 22:07",
 		"initialize" : "TB 5/6/2018 22:56",
-		"newLineAbove:" : "TB 5/6/2018 22:09",
-		"newLineBelow:" : "TB 5/6/2018 22:09",
+		"newLineAbove:" : "TB 5/11/2018 21:55",
+		"newLineBelow:" : "TB 5/11/2018 21:57",
 		"select" : "TB 5/11/2018 14:15",
 		"setStatements:temporaries:arguments:" : "TB 5/6/2018 22:11",
 		"statements" : "TB 5/6/2018 22:12" } }

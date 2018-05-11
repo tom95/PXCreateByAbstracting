@@ -3,7 +3,13 @@ initialize
 	
 	super initialize.
 	
+	undoStack := OrderedCollection new.
+	redoStack := OrderedCollection new.
+	
 	self
-		commandPalette: PXCommandPalette new;
+		commandPalette: (PXCommandPalette new
+			when: #requestUndo send: #undo to: self;
+			when: #requestRedo send: #redo to: self);
 		withLayout;
-		vertical: false
+		vertical: false;
+		updateUndoRedo

@@ -4,6 +4,7 @@ initialize
 	super initialize.
 	
 	self
+		addStyleClass: #pxCommandPalette;
 		buttons: {
 			self buttonLabeled: 'assign to self' icon: self iconAssignment do: [self selectedBubble wrapInAssignment].
 			self buttonLabeled: 'use as argument' icon: self iconUseAsArgument do: [self selectedBubble wrapInMessageSendAsArgument].
@@ -14,7 +15,12 @@ initialize
 			self buttonLabeled: 'delete around sel' do: [self selectedBubble removeOuter].
 			self buttonLabeled: 'replace by var' do: [self selectedBubble replaceByVariable]};
 		addAll: self buttons;
-		withLayout;
-		addApplicationStyles: (PHStyle forAny spacing: 2);
+		add: (PHButtonGroup new
+			add: (undoButton := (PHButton icon: #iconUndo)
+				when: #clicked send: #triggerEvent: to: self with: #requestUndo);
+			add: (redoButton := (PHButton icon: #iconRepeat)
+				when: #clicked send: #triggerEvent: to: self with: #requestRedo));
+		add: (selectionInfo := PHLabel new);
+		addApplicationStyles: ((PHStyle for: #pxCommandPallette) spacing: 2);
 		vertical: true;
 		disableAll

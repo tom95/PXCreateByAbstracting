@@ -1,4 +1,4 @@
 as yet unclassified
 name
 
-	^ name
+	^ textEntry text

@@ -1,10 +1,8 @@
 as yet unclassified
 newLineAbove: aBubble
 
-	| topMost new |
+	| topMost |
 	topMost := aBubble.
 	[topMost owner == self] whileFalse: [topMost := topMost owner].
 
-	new := PXUnknown new.
-	self addMorph: new inFrontOf: topMost.
-	^ new
+	^ PXInsertEmptyStatement in: self at: (self submorphIndexOf: topMost)
