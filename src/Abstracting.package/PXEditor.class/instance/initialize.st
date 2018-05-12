@@ -8,6 +8,7 @@ initialize
 	
 	self
 		commandPalette: (PXCommandPalette new
+			when: #requestSave send: #save to: self;
 			when: #requestUndo send: #undo to: self;
 			when: #requestRedo send: #redo to: self);
 		withLayout;

@@ -11,7 +11,8 @@
 		"selectionInfo",
 		"undoButton",
 		"redoButton",
-		"selectedBubble" ],
+		"selectedBubble",
+		"saveButton" ],
 	"name" : "PXCommandPalette",
 	"pools" : [
 		 ],
