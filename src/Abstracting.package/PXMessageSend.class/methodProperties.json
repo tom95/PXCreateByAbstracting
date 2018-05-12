@@ -4,11 +4,14 @@
 	"instance" : {
 		"addMessagePartTextEntry:" : "cjg 5/12/2018 09:40",
 		"addTrailingTextEntry" : "TB 5/6/2018 21:31",
-		"beforeKeystroke:from:" : "cjg 5/12/2018 11:41",
+		"beforeKeystroke:from:" : "TB 5/11/2018 19:56",
+		"doubleClick:" : "TB 5/12/2018 11:18",
 		"focusArgumentAt:" : "TB 5/6/2018 20:58",
 		"focusSelector" : "TB 5/11/2018 23:11",
 		"messageSymbol" : "cjg 5/12/2018 11:21",
 		"messageSymbolWith:in:" : "cjg 5/12/2018 11:11",
 		"requestDeleteFrom:" : "TB 5/12/2018 08:41",
+		"selector" : "TB 5/12/2018 11:15",
 		"setReceiver:selector:arguments:" : "cjg 5/12/2018 09:52",
-		"updateSelector:" : "cjg 5/12/2018 11:40" } }
+		"updateSelector:" : "cjg 5/12/2018 11:40",
+		"writeCodeStringOn:" : "TB 5/12/2018 09:35" } }
