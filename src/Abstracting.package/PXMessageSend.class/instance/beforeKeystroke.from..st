@@ -2,11 +2,9 @@ as yet unclassified
 beforeKeystroke: anEvent from: aTextEntry
 
 	anEvent keyCharacter = $: ifTrue: [
-		aTextEntry cursor = aTextEntry text size ifTrue: [
-			self addMorph: PXUnknown new focus after: aTextEntry.
-			
-			aTextEntry == trailingTextEntry ifTrue: [trailingTextEntry := nil].
-			self addTrailingTextEntry].
+		aTextEntry cursorAtEnd ifFalse: [^ false].
+		(messagePartTextEntries includes: aTextEntry) ifTrue: [
+			self run: (PXChangeMessage of: self content: (self messageSymbolWith: anEvent in: aTextEntry)) ].
 		^ false].
 	
 	^ super beforeKeystroke: anEvent from: aTextEntry

@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMessagePatternOf:withArguments:do:" : "TB 5/6/2018 15:57",
+		"addMessagePatternOf:withArguments:" : "cjg 5/12/2018 10:46",
+		"addMessagePatternOf:withArguments:do:" : "cjg 5/12/2018 09:38",
 		"afterKeystroke:from:previous:" : "TB 5/11/2018 19:54",
 		"beforeKeystroke:from:" : "TB 5/12/2018 01:04",
 		"blockDepth" : "TB 5/6/2018 14:57",
@@ -16,7 +17,8 @@
 		"containingBlock" : "TB 5/6/2018 18:59",
 		"createLabelFor:" : "TB 5/6/2018 20:06",
 		"createTextEntry" : "TB 5/6/2018 20:06",
-		"createTextEntryFor:" : "TB 5/6/2018 12:47",
+		"createTextEntryFor:" : "cjg 5/12/2018 10:25",
+		"createTextEntryFor:in:" : "cjg 5/12/2018 10:28",
 		"deselect" : "TB 5/6/2018 23:17",
 		"drawBorder:on:width:" : "TB 5/6/2018 23:05",
 		"drawOn:" : "TB 5/6/2018 23:11",

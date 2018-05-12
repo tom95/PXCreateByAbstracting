@@ -5,9 +5,8 @@ setReceiver: aReceiverExpression selector: aSymbol arguments: aCollectionOfExpre
 	messagePartTextEntries := OrderedCollection new.
 	
 	self add: aReceiverExpression.
-	self
+	messagePartTextEntries := self
 		addMessagePatternOf: aSymbol
-		withArguments: aCollectionOfExpressions
-		do: [:textEntry | messagePartTextEntries add: textEntry].
+		withArguments: aCollectionOfExpressions.
 		
 	aSymbol isKeyword ifTrue: [self addTrailingTextEntry]
