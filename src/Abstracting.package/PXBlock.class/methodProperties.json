@@ -18,4 +18,6 @@
 		"requestDeleteFrom:" : "TB 5/12/2018 08:31",
 		"select" : "TB 5/11/2018 14:15",
 		"setStatements:temporaries:arguments:" : "TB 5/6/2018 22:11",
-		"statements" : "TB 5/12/2018 08:14" } }
+		"statements" : "TB 5/12/2018 08:14",
+		"writeCodeStringOn:" : "TB 5/12/2018 09:43",
+		"writeCodeStringOn:isMethodBlock:" : "TB 5/12/2018 09:42" } }

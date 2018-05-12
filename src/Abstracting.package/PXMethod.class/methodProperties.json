@@ -1,18 +1,25 @@
 {
 	"class" : {
-		"fromSource:in:" : "cjg 5/9/2018 13:56" },
+		"fromSource:in:" : "cjg 5/9/2018 13:56",
+		"newIn:" : "TB 5/12/2018 10:47" },
 	"instance" : {
 		"arguments" : "TB 5/10/2018 09:01",
 		"asNode" : "TB 5/10/2018 09:02",
 		"block" : "TB 5/10/2018 08:58",
+		"codeString" : "TB 5/12/2018 09:38",
+		"contextClass" : "TB 5/12/2018 11:05",
 		"didSelect:" : "TB 5/9/2018 23:21",
 		"drawOn:" : "TB 5/6/2018 19:48",
+		"generate" : "TB 5/12/2018 09:50",
 		"initialize" : "TB 5/6/2018 16:04",
 		"innerBubble" : "TB 5/7/2018 18:49",
 		"methodDeclaration" : "TB 5/10/2018 08:59",
 		"root" : "TB 5/6/2018 17:03",
+		"save" : "TB 5/12/2018 10:35",
 		"select" : "TB 5/11/2018 14:15",
 		"selectedBubble" : "cjg 5/9/2018 15:04",
 		"selectedBubble:" : "cjg 5/9/2018 15:04",
 		"selector" : "TB 5/10/2018 09:01",
-		"setFromSource:in:" : "TB 5/6/2018 17:29" } }
+		"setEmptyIn:" : "TB 5/12/2018 10:56",
+		"setFromSource:in:" : "TB 5/12/2018 09:49",
+		"writeCodeStringOn:" : "TB 5/12/2018 09:44" } }
