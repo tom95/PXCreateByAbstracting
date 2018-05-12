@@ -1,4 +1,4 @@
 as yet unclassified
 statements
 
-	^ statements
+	^ self submorphs perform: (declarations ifNil: [#yourself] ifNotNil: [#allButFirst])

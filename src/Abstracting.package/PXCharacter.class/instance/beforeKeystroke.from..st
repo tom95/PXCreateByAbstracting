@@ -6,6 +6,8 @@ beforeKeystroke: anEvent from: aTextEntry
 	
 	self flag: #todo. " maybe consider passing isSpecial and Character space through to parent handler if we already have a valid character "
 	(integerValue >= 32 and: [integerValue ~= 127]) ifTrue: [
-		self run: (PXModifyValue replace: aTextEntry text of: self with: '$', anEvent keyCharacter). ^ true].
+		self run: (PXModifyValue replace: aTextEntry text of: self with: '$', anEvent keyCharacter).
+		aTextEntry takeCursorAtEnd.
+		^ true].
 	
 	^ super beforeKeystroke: anEvent from: aTextEntry

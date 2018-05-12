@@ -1,4 +1,4 @@
 as yet unclassified
 closestTextEntryBefore
 
-	^ self closestTextEntryBefore: self
+	^ self owner closestTextEntryBefore: self

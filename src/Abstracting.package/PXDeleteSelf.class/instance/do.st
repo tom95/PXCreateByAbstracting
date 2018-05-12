@@ -2,6 +2,6 @@ as yet unclassified
 do
 
 	| newFocus |
-	newFocus := self bubble previousBubble.
+	newFocus := self bubble closestTextEntryBefore: self bubble.
 	self bubble delete.
-	newFocus focus
+	newFocus takeCursorAtEnd

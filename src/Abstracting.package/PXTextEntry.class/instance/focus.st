@@ -2,5 +2,5 @@ as yet unclassified
 focus
 
 	^ self
-		takeCursorAtStart;
+		takeCursorAtEnd;
 		yourself

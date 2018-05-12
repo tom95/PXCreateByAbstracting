@@ -1,9 +1,10 @@
 as yet unclassified
 beforeKeystroke: anEvent from: aTextEntry
 
-	anEvent keyCharacter = $' ifTrue: [
-		self run: (PXReplace bubble: self with: (PXString value: '')).
-		"(self replaceBy: [PXString value: '']) focus; placeCursorAt: 1."
+	anEvent keyCharacter = $' ifTrue: [ | string |
+		string := PXString value: ''.
+		self run: (PXReplace bubble: self with: string).
+		string placeCursorAt: 1.
 		^ true].
 	
 	anEvent keyCharacter = $[ ifTrue: [
