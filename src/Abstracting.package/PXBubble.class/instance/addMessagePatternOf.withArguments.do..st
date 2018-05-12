@@ -5,5 +5,5 @@ addMessagePatternOf: aSymbol withArguments: aCollection do: aBlock
 		ifEmpty: [self add: (aBlock value: (self createTextEntryFor: aSymbol))]
 		ifNotEmpty: [
 			(aSymbol findTokens: ':') with: aCollection do: [:keyword :argumentExpression |
-			self add: (aBlock value: (self createTextEntryFor: keyword, (aSymbol isBinary ifTrue: [''] ifFalse: [':']))).
+			self add: (aBlock value: (self createTextEntryFor: keyword in: aSymbol)).
 			self add: argumentExpression]]
