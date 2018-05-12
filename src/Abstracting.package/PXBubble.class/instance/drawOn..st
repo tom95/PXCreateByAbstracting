@@ -9,4 +9,5 @@ drawOn: aCanvas
 	
 	(self selected and: [self owner selected not]) ifTrue: [self drawBorder: Color veryLightGray on: aCanvas width: 4].
 	
-	self highlight ifTrue: [self drawBorder: Color red on: aCanvas width: 2]
+	self flag: #fixme. "maybe pick different colors here"
+	(self highlight or: [self validValue not]) ifTrue: [self drawBorder: Color red on: aCanvas width: 2]

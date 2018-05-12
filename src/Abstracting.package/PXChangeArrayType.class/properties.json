@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"closingTextEntry",
-		"arrayType" ],
-	"name" : "PXArray",
+		"array",
+		"newType",
+		"previousType" ],
+	"name" : "PXChangeArrayType",
 	"pools" : [
 		 ],
-	"super" : "PXValue",
+	"super" : "PXCommand",
 	"type" : "normal" }

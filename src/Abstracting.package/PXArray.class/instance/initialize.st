@@ -3,5 +3,12 @@ initialize
 
 	super initialize.
 	
-	textEntry text: '{'.
-	self add: (closingTextEntry := self createTextEntryFor: '}')
+	textEntry
+		text: '{';
+		editable: false.
+	
+	self add: (closingTextEntry := (self createTextEntryFor: '}')
+		editable: false;
+		yourself).
+	
+	arrayType := #dynamic
