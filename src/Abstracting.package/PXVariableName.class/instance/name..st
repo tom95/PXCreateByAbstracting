@@ -1,4 +1,4 @@
 as yet unclassified
 name: aString
 
-	textEntry text: aString
+	textEntry textKeepCursor: aString

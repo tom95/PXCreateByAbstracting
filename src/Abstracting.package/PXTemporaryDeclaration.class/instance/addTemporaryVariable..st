@@ -7,4 +7,6 @@ addTemporaryVariable: aName
 	
 	numberOfPipes <= 1
 		ifTrue: [self setTemporaryVariables: {identifier}]
-		ifFalse: [self addMorph: identifier asElementNumber: self submorphCount]
+		ifFalse: [self addMorph: identifier asElementNumber: self submorphCount].
+		
+	^ identifier

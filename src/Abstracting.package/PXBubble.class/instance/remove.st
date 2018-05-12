@@ -1,6 +1,7 @@
 edit actions
 remove
 
-	self owner == self containingBlock
-		ifTrue: [self delete]
-		ifFalse: [(self replaceBy: [PXUnknown new]) focus]
+	self deselect.
+	self run: (self owner == self containingBlock
+		ifTrue: [PXDeleteSelf bubble: self]
+		ifFalse: [PXReplace bubble: self with: PXUnknown new])

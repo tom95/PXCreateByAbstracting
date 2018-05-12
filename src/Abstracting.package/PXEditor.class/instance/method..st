@@ -7,5 +7,5 @@ method: anObject
 	
 	self add: (method
 		expand: true;
-		when: #selectedBubble send: #didSelect: to: self commandPalette;
+		when: #selectedBubble send: #selectedBubble: to: self commandPalette;
 		yourself) at: 1

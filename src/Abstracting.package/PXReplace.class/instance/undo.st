@@ -1,4 +1,6 @@
 as yet unclassified
 undo
 
-	(self newBubble replaceBy: [self previousBubble]) focus
+	actualNewBubble replaceBy: self previousBubble.
+	
+	self previousBubble focus

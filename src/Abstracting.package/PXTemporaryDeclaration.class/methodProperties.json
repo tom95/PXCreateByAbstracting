@@ -3,11 +3,16 @@
 		"blockArguments:temporaries:" : "TB 5/6/2018 17:32",
 		"temporaries:" : "TB 5/6/2018 17:32" },
 	"instance" : {
-		"addTemporaryVariable:" : "TB 5/9/2018 14:16",
+		"addArgument:" : "TB 5/12/2018 15:19",
+		"addTemporaryVariable:" : "TB 5/12/2018 15:22",
+		"arguments" : "TB 5/12/2018 15:29",
 		"focus" : "TB 5/12/2018 08:25",
 		"innerBubble" : "TB 5/7/2018 18:53",
 		"numberOfPipes" : "TB 5/12/2018 09:39",
+		"removeArgument:" : "TB 5/12/2018 15:30",
+		"removeTemporaryVariable:" : "TB 5/12/2018 14:47",
 		"requestDeleteFrom:" : "TB 5/12/2018 08:26",
 		"setBlockArguments:temporaries:" : "TB 5/6/2018 19:06",
 		"setTemporaryVariables:" : "TB 5/6/2018 19:06",
+		"temporaries" : "TB 5/12/2018 14:49",
 		"writeCodeStringOn:" : "TB 5/12/2018 09:49" } }

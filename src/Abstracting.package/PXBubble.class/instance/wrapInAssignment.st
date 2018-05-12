@@ -1,4 +1,6 @@
 edit actions
 wrapInAssignment
 
-	(self replaceBy: [PXAssignment identifier: (PXVariableName name: '') statement: self]) focusIdentifier
+	self
+		deselect;
+		run: (PXReplace bubble: self with: [PXAssignment identifier: (PXVariableName name: '') statement: self])

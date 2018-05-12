@@ -1,4 +1,4 @@
 as yet unclassified
 displayValueAsString
 
-	^ self value storeString
+	^ self data storeString

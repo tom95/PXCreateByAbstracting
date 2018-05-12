@@ -28,7 +28,16 @@ beforeKeystroke: anEvent from: aTextEntry
 		^ true].
 	
 	anEvent keyCharacter = Character backspace ifTrue: [
-		self owner requestDeleteFrom: self. ^ true].
+		self owner requestDeleteFrom: self.
+		^ true].
+	
+	anEvent keyCharacter = $^ ifTrue: [
+		self run: (PXReplace bubble: self with: (PXReturn statement: PXUnknown new)).
+		^ true].
+	
+	(anEvent keyCharacter = $: and: [self owner == self containingBlock and: [self owner statements first == self]]) ifTrue: [
+		self run: (PXAddBlockArgument block: self owner name: '').
+		^ true].
 	
 	super beforeKeystroke: anEvent from: aTextEntry.
 	

@@ -1,4 +1,6 @@
 edit actions
 wrapInBlock
 
-	(self replaceBy: [PXBlock statements: {self} temporaries: #() arguments: #()]) statements first focus
+	self
+		deselect;
+		run: (PXReplace bubble: self with: [PXBlock statements: {self} temporaries: #() arguments: #()])

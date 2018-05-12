@@ -1,4 +1,6 @@
 edit actions
 wrapInReturn
 
-	(self replaceBy: [PXReturn statement: self]) focus
+	self
+		deselect;
+		run: (PXReplace bubble: self with: [PXReturn statement: self])

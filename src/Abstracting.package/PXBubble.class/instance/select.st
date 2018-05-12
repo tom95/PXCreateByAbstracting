@@ -1,10 +1,6 @@
 as yet unclassified
 select
 
-	| textEntry |
-	self root clearSelection.
-	
-	textEntry := self focus.
-	
-	" make sure our selection chain goes from the focused widget to the selected so that we receive key events "
-	[textEntry owner selectUp] doWhileTrue: [self selected not]
+	self root selectedBubble: self.
+	selected := true.
+	self changed

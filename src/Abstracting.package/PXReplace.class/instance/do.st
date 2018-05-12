@@ -1,4 +1,5 @@
 as yet unclassified
 do
 
-	(self previousBubble replaceBy: [self newBubble]) focus
+	actualNewBubble := self previousBubble replaceBy: self newBubble.
+	actualNewBubble focus

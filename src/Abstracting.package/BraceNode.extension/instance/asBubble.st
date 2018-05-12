@@ -1,4 +1,4 @@
 *Abstracting
 asBubble
 
-	^ PXArray values: (self elements collect: #asBubble)
+	^ PXArray elements: (self elements collect: #asBubble)

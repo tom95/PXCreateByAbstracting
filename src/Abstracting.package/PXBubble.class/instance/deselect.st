@@ -1,4 +1,4 @@
 as yet unclassified
 deselect
 
-	selected ifTrue: [selected := false. self changed]
+	self root selectedBubble: nil

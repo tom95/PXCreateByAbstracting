@@ -1,4 +1,4 @@
 as yet unclassified
 incompleteFrom: aString
 
-	textEntry text: aString
+	textEntry textKeepCursor: aString

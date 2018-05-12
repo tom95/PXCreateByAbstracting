@@ -1,5 +1,5 @@
 as yet unclassified
 incompleteFrom: aString
 
-	value := aString asNumber.
+	data := aString asNumber.
 	textEntry textKeepCursor: aString

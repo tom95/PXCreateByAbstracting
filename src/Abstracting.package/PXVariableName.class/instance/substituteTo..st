@@ -6,5 +6,5 @@ substituteTo: aToken
 	
 	aToken isNumber
 		ifTrue: [
-			self constantNumberIfFound: [:number | aToken replaceBy: [PXMessageSend receiver: (PXIdentifier value: self name) selector: #+ arguments: {PXNumber value: aToken value - number}]] ifNone: simpleReplace]
+			self constantNumberIfFound: [:number | aToken replaceBy: [PXMessageSend receiver: (PXIdentifier value: self name) selector: #+ arguments: {PXNumber value: aToken data - number}]] ifNone: simpleReplace]
 		ifFalse: simpleReplace

@@ -1,4 +1,6 @@
 edit actions
 wrapInMessageSendAsArgument
 
-	(self replaceBy: [PXMessageSend receiver: PXUnknown new selector: #msg: arguments: {self}]) focusSelector
+	self
+		deselect;
+		run: (PXReplace bubble: self with: [PXMessageSend receiver: PXUnknown new selector: #msg: arguments: {self}])

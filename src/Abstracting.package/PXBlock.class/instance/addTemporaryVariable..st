@@ -1,10 +1,12 @@
 as yet unclassified
 addTemporaryVariable: aName
 
-	declarations
-		ifNil: [
+	^ declarations
+		ifNil: [ | temp |
+			temp := PXVariableName name: aName.
 			self addMorph: (declarations := PXTemporaryDeclaration
 				blockArguments: #()
-				temporaries: {PXVariableName name: aName})]
+				temporaries: {temp}).
+			temp]
 		ifNotNil: [
 			declarations addTemporaryVariable: aName]

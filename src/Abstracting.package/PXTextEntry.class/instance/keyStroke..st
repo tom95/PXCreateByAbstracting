@@ -2,6 +2,8 @@ as yet unclassified
 keyStroke: anEvent
 
 	| previous |
+	self owner root withSelectedDo: [:selected | ^ selected keystrokeWhileSelected: anEvent].
+	
 	(self owner beforeKeystroke: anEvent from: self) ifTrue: [^ self].
 	previous := self text.
 	

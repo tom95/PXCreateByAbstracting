@@ -5,6 +5,6 @@ replaceBy: aBlock
 	parent := self owner.
 	index := self owner submorphIndexOf: self.
 	parent removeMorph: self.
-	new  := aBlock value.
+	new := aBlock value.
 	parent addMorph: new asElementNumber: index.
 	^ new

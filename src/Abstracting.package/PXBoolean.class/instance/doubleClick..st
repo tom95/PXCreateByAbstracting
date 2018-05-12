@@ -1,4 +1,4 @@
 as yet unclassified
 doubleClick: anEvent
 
-	self value: self value not
+	self data: self data not

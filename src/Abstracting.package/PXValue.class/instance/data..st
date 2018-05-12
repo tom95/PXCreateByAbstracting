@@ -1,5 +1,5 @@
 as yet unclassified
-value: anObject
+data: anObject
 
-	value := anObject.
+	data := anObject.
 	textEntry text: self displayValueAsString

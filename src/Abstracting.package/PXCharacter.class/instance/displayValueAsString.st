@@ -1,5 +1,5 @@
 as yet unclassified
 displayValueAsString
 
-	self value = Character space ifTrue: [^ '$ '].
+	self data = Character space ifTrue: [^ '$ '].
 	^ super displayValueAsString

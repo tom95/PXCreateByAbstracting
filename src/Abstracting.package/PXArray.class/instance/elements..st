@@ -1,4 +1,4 @@
 as yet unclassified
-values: aCollection
+elements: aCollection
 
 	aCollection do: [:bubble | self add: bubble before: closingTextEntry]
