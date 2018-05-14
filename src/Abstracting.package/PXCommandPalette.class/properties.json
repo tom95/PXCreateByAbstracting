@@ -12,7 +12,8 @@
 		"undoButton",
 		"redoButton",
 		"selectedBubble",
-		"saveButton" ],
+		"saveButton",
+		"autosave" ],
 	"name" : "PXCommandPalette",
 	"pools" : [
 		 ],

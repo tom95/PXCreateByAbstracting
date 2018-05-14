@@ -8,6 +8,8 @@ initialize
 		addApplicationStyles: ((PHStyle for: #pxCommandPallette) spacing: 2);
 		vertical: true;
 		
+		add: (autosave := PHCheckboxWithLabel label: 'Autosave');
+		
 		add: (PHPage row
 			add: (saveButton := (PHButton icon: #iconSave)
 				disabled: true;

@@ -2,7 +2,8 @@ edit actions
 removeOuter
 
 	| inner |
+	self deselect.
 	inner := self innerBubble.
 	inner == self
-		ifTrue: [self delete]
-		ifFalse: [(self replaceBy: [inner]) focus]
+		ifTrue: [self owner removeOuter]
+		ifFalse: [	self run: (PXReplace bubble: self with: self innerBubble)]

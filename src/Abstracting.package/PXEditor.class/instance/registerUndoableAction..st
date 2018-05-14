@@ -1,8 +1,11 @@
 accessing
 registerUndoableAction: aCommand
 
+	| methodValid |
 	undoStack addLast: aCommand.
 	redoStack removeAll.
 	self updateUndoRedo.
 	
-	self commandPalette saveDisabled: (false or: [self method valid not])
+	methodValid := self method valid.
+	self commandPalette saveDisabled: methodValid not.
+	(self commandPalette autosave and: [methodValid]) ifTrue: [self save]

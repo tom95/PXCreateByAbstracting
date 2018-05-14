@@ -1,10 +1,10 @@
 as yet unclassified
 beforeKeystroke: anEvent from: aTextEntry
 
-	anEvent keyString = '<up>' ifTrue: [
+	anEvent keyCharacter = Character arrowUp ifTrue: [
 		self selectUp. ^ true].
 	
-	anEvent keyString = '<down>' ifTrue: [
+	anEvent keyCharacter = Character arrowDown ifTrue: [
 		self selectDown. ^ true].
 	
 	(anEvent keyCharacter = Character arrowLeft and: [aTextEntry cursorAtStart]) ifTrue: [

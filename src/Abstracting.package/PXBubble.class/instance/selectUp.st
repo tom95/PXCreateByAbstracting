@@ -1,4 +1,6 @@
 as yet unclassified
 selectUp
 
-	self owner select
+	self selected
+		ifTrue: [self owner select]
+		ifFalse: [self select]

@@ -8,7 +8,9 @@
 	"instvars" : [
 		"previousBubble",
 		"newBubble",
-		"actualNewBubble" ],
+		"actualNewBubble",
+		"previousOwner",
+		"previousIndex" ],
 	"name" : "PXReplace",
 	"pools" : [
 		 ],
