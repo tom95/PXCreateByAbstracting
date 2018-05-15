@@ -1,4 +1,4 @@
 as yet unclassified
 addMessagePartTextEntry: aTextEntry
-	self add: aTextEntry.
+	self addBeforeTrailing: aTextEntry.
 	messagePartTextEntries add: aTextEntry

@@ -1,0 +1,4 @@
+accessing
+toggleCommandPaletteVisible
+
+	self commandPalette toggleVisible

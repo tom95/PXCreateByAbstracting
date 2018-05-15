@@ -1,4 +1,4 @@
 as yet unclassified
 = aToken
 
-	^ aToken contents = self contents
+	^ (aToken respondsTo: #contents) and: [aToken contents = self contents]
