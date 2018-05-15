@@ -1,6 +1,8 @@
 as yet unclassified
 beforeKeystroke: anEvent from: aTextEntry
 
+	anEvent keyString = '<Cmd-e>' ifTrue: [self root requestToggleEditor. ^ true].
+
 	anEvent keyCharacter = Character arrowUp ifTrue: [
 		self selectUp. ^ true].
 	

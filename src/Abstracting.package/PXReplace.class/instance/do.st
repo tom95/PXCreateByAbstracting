@@ -12,6 +12,8 @@ do
 		previousOwner := o.
 		previousIndex := o submorphIndexOf: actualNewBubble].
 	
+	actualNewBubble resizeToPreferred.
 	parent addMorph: actualNewBubble asElementNumber: index.
 	
+	actualNewBubble fullBounds; layoutChanged.
 	actualNewBubble focus

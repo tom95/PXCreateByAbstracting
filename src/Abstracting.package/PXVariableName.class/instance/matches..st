@@ -1,4 +1,4 @@
 as yet unclassified
 matches: aMorph
 
-	^ aMorph isBubble and: [aMorph isVariableName and: [aMorph data = self data]]
+	^ aMorph isBubble and: [aMorph isVariableName and: [aMorph name = self name]]

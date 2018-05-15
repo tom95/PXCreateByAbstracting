@@ -1,0 +1,15 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"editor",
+		"canvas" ],
+	"name" : "PXDrawCanvasEditor",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"for:of:" : "TB 5/14/2018 12:05",
 		"fromSource:in:" : "cjg 5/9/2018 13:56",
 		"newIn:" : "TB 5/12/2018 10:47" },
 	"instance" : {
@@ -15,8 +16,9 @@
 		"initialize" : "TB 5/6/2018 16:04",
 		"innerBubble" : "TB 5/7/2018 18:49",
 		"methodDeclaration" : "TB 5/10/2018 08:59",
+		"requestToggleEditor" : "TB 5/15/2018 12:13",
 		"root" : "TB 5/6/2018 17:03",
-		"save" : "TB 5/12/2018 15:45",
+		"save" : "TB 5/14/2018 12:23",
 		"select" : "TB 5/11/2018 14:15",
 		"selectedBubble" : "cjg 5/9/2018 15:04",
 		"selectedBubble:" : "TB 5/12/2018 13:35",

@@ -1,5 +1,8 @@
 accessing
 save
 
+	| result |
 	self commandPalette saveDisabled: true.
-	self method save
+	result := self method save.
+	self triggerEvent: #saved with: result.
+	^ result
