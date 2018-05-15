@@ -10,5 +10,5 @@
 	"name" : "PXCommandDropdown",
 	"pools" : [
 		 ],
-	"super" : "PHDropdown",
+	"super" : "AnObsoletePHDropdown",
 	"type" : "normal" }

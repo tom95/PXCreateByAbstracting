@@ -2,7 +2,7 @@ as yet unclassified
 addMessagePatternOf: aSymbol withArguments: aCollection
 
 	aCollection
-		ifEmpty: [ |te| te := self createTextEntryFor: aSymbol. self add: te. ^ Array with: te]
+		ifEmpty: [ |te| te := self createTextEntryFor: aSymbol. self add: te. ^ OrderedCollection with: te]
 		ifNotEmpty: [
 			|keywordTextEntries|
 			keywordTextEntries :=

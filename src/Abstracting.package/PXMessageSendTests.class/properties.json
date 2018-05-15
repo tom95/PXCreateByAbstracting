@@ -8,7 +8,7 @@
 	"instvars" : [
 		"unknown",
 		"container" ],
-	"name" : "PXUnknownTests",
+	"name" : "PXMessageSendTests",
 	"pools" : [
 		 ],
 	"super" : "AnObsoletePHEventTestCase",

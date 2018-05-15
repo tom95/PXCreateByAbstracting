@@ -9,5 +9,5 @@ keyStroke: anEvent
 	
 	super keyStroke: anEvent.
 	
-	previous ~=  self text ifTrue: [
+	(previous ~=  self text and: [self owner ~= nil]) ifTrue: [
 		self owner afterKeystroke: anEvent from: self previous: previous]

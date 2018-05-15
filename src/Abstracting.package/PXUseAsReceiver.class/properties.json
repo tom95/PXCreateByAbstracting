@@ -8,7 +8,8 @@
 	"instvars" : [
 		"bubble",
 		"messageSend",
-		"selector" ],
+		"selector",
+		"trailingTextEntry" ],
 	"name" : "PXUseAsReceiver",
 	"pools" : [
 		 ],
