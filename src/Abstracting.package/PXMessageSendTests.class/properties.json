@@ -1,0 +1,15 @@
+{
+	"category" : "Abstracting-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"unknown",
+		"container" ],
+	"name" : "PXMessageSendTests",
+	"pools" : [
+		 ],
+	"super" : "PHEventTestCase",
+	"type" : "normal" }
