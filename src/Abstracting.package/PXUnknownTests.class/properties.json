@@ -11,5 +11,5 @@
 	"name" : "PXUnknownTests",
 	"pools" : [
 		 ],
-	"super" : "AnObsoletePHEventTestCase",
+	"super" : "PHEventTestCase",
 	"type" : "normal" }
