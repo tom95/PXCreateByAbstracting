@@ -16,4 +16,6 @@ do
 	parent addMorph: actualNewBubble asElementNumber: index.
 	
 	actualNewBubble fullBounds; layoutChanged.
-	actualNewBubble focus
+	actualNewBubble focus.
+	
+	(actualNewBubble isString and: [actualNewBubble data = '']) ifTrue: [actualNewBubble placeCursorAt: 1]

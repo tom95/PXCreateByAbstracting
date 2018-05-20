@@ -8,7 +8,8 @@
 	"instvars" : [
 		"bubble",
 		"newText",
-		"index" ],
+		"index",
+		"previousText" ],
 	"name" : "PXChangeMessagePart",
 	"pools" : [
 		 ],

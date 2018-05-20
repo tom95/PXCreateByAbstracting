@@ -1,8 +1,9 @@
 {
 	"class" : {
-		 },
+		"decideForCharacter:ifFound:" : "TB 5/21/2018 00:09" },
 	"instance" : {
-		"beforeKeystroke:from:" : "TB 5/12/2018 15:01",
+		"beforeKeystroke:from:" : "TB 5/21/2018 00:06",
+		"commandForCharacter:ifFound:ifNone:" : "TB 5/21/2018 00:08",
 		"displayValueAsString" : "TB 5/12/2018 13:49",
 		"isUnknown" : "TB 5/12/2018 08:40",
 		"printOn:" : "TB 5/12/2018 01:05" } }

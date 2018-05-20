@@ -9,10 +9,10 @@ beforeKeystroke: anEvent from: aTextEntry
 	anEvent keyCharacter = Character arrowDown ifTrue: [
 		self selectDown. ^ true].
 	
-	(anEvent keyCharacter = Character arrowLeft and: [aTextEntry cursorAtStart]) ifTrue: [
+	(anEvent keyCharacter = Character arrowLeft and: [aTextEntry cursorAtStart and: [aTextEntry hasSelection not]]) ifTrue: [
 		aTextEntry closestTextEntryBefore takeCursorAtEnd. ^ true].
 	
-	(anEvent keyCharacter = Character arrowRight and: [aTextEntry cursorAtEnd]) ifTrue: [
+	(anEvent keyCharacter = Character arrowRight and: [aTextEntry cursorAtEnd  and: [aTextEntry hasSelection not]]) ifTrue: [
 		 aTextEntry closestTextEntryAfter takeCursorAtStart. ^ true].
 	
 	anEvent keyString = '<tab>' ifTrue: [

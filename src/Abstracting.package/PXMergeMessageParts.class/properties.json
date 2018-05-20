@@ -1,0 +1,15 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bubble",
+		"index" ],
+	"name" : "PXMergeMessageParts",
+	"pools" : [
+		 ],
+	"super" : "PXCommand",
+	"type" : "normal" }
