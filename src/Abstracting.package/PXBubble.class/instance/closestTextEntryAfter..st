@@ -3,7 +3,7 @@ closestTextEntryAfter: aMorph
 
 	| p |
 	p := aMorph.
-	[p owner lastSubmorph == p] whileTrue: [p := p owner].
+	[(p owner ifNil: [^ nil]) lastSubmorph == p] whileTrue: [p := p owner].
 	p := p submorphAfter.
 	[p submorphCount > 0] whileTrue: [p := p firstSubmorph].
 	

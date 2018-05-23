@@ -1,23 +1,15 @@
 as yet unclassified
-keystrokeWhileSelected: anEvent
+keystrokeWhileSelected: anEvent from: aTextEntry
 
 	anEvent keyCharacter = Character escape ifTrue: [^ self deselect].
-	
 	anEvent keyCharacter = Character arrowUp ifTrue: [^ self selectUp].
-	
+	anEvent keyCharacter = Character arrowDown ifTrue: [^ self selectDownFrom: aTextEntry].
 	anEvent keyCharacter = $: ifTrue: [^ self wrapInAssignment].
-	
 	anEvent keyCharacter = Character backspace ifTrue: [^ self remove].
-	
-	"TODO anEvent keyCharacter = Character delete ifTrue: [ 
-		self root clearSelection. self removeOuter. ^self]."
-	
+	anEvent keyCharacter = Character delete ifTrue: [^ self removeOuter].
 	anEvent keyCharacter = $^ ifTrue: [^ self wrapInReturn].
-	
 	anEvent keyCharacter = $[ ifTrue: [^ self wrapInBlock].
-	
 	anEvent keyCharacter = $< ifTrue: [^ self wrapInMessageSendAsArgument].
-	
 	anEvent keyCharacter = $> ifTrue: [^ self wrapInMessageSendAsReceiver].
 	
 	"anEvent keyString = '<right>' ifTrue: [
