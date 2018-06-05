@@ -4,11 +4,21 @@ beforeKeystroke: anEvent from: aTextEntry
 	" can only place a special character in a binary message "
 	anEvent keyCharacter isSpecial ifTrue: [
 		((aTextEntry text allSatisfy: #isSpecial) and: [messagePartTextEntries size = 1]) ifTrue: [
-			self run: (PXChangeMessagePart at: 1 of: self to: anEvent keyCharacter asString)].
-		^ true].
+			self run: (PXChangeMessagePart at: 1 of: self to: anEvent keyCharacter asString).
+			^ true]].
 	
 	" selector can't start with a number "
 	(anEvent keyCharacter isDigit and: [aTextEntry cursor = 0]) ifTrue: [^ true].
+	
+	" possibly wrap myself as receiver of a new message send "
+	(aTextEntry == messagePartTextEntries last or: [trailingTextEntry == aTextEntry]) ifTrue: [
+		anEvent keyCharacter = Character space ifTrue: [self run: (PXUseAsReceiver bubble: self selector: #''). ^ true].
+		
+		anEvent keyCharacter isSpecial ifTrue: [
+			self run: (PXUseAsReceiver bubble: self selector: anEvent keyCharacter asSymbol). ^ true]].
+	
+	" now block remaining special and separator characters "
+	(anEvent keyCharacter = Character space or: [anEvent keyCharacter isSpecial]) ifTrue: [^ true].
 	
 	" typed in trailing text entry, add new "
 	((anEvent keyCharacter isLetter or: [anEvent keyCharacter = $:]) and: [aTextEntry == trailingTextEntry]) ifTrue: [ | text |

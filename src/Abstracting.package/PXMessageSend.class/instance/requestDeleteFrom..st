@@ -7,6 +7,6 @@ requestDeleteFrom: aBubble
 	
 	| argumentIndex |
 	argumentIndex := self submorphIndexOf: aBubble.
-	self run: (PXChangeMessage of: self content: ((self selector keywords copyWithoutIndex: argumentIndex - 1 / 2) joinSeparatedBy: '') asSymbol).
+	self run: (PXRemoveMessagePart at: (argumentIndex - 1 / 2) of: self).
 	"
 	^ self run: (PXReplace bubble: self with: PXUnknown new)"
