@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"receiver:selector:" : "TB 6/12/2018 21:55",
+		"receiver:selector:argument:" : "TB 6/12/2018 21:55",
+		"receiver:selector:arguments:" : "TB 6/12/2018 22:06" },
+	"instance" : {
+		"beforeKeystroke:from:" : "TB 6/13/2018 08:27",
+		"focusSelector" : "TB 6/12/2018 22:34",
+		"isValidForPart:" : "TB 6/13/2018 08:07",
+		"messagePartEntryAt:" : "TB 6/12/2018 23:35",
+		"printOn:" : "TB 6/12/2018 21:49",
+		"receiver:selector:argument:" : "TB 6/12/2018 22:21",
+		"requestDeleteFrom:" : "TB 6/13/2018 08:27",
+		"selector" : "TB 6/12/2018 21:51",
+		"textEntryIndexOf:" : "TB 6/13/2018 08:06" } }

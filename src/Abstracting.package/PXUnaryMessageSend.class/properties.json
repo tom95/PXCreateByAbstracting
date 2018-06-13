@@ -1,0 +1,14 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"textEntry" ],
+	"name" : "PXUnaryMessageSend",
+	"pools" : [
+		 ],
+	"super" : "PXMessageSend",
+	"type" : "normal" }

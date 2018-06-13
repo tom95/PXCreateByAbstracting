@@ -5,4 +5,4 @@ click: anEvent
 	candidates := self morphsAt: anEvent position.
 	candidates first  ~~ self
 		ifTrue: [candidates first mouseDown: anEvent]
-		ifFalse: [self select]
+		ifFalse: [self select; focus]

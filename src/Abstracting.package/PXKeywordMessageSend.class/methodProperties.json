@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"receiver:selector:" : "TB 6/12/2018 22:40",
+		"receiver:selector:arguments:" : "TB 5/6/2018 12:35" },
+	"instance" : {
+		"addMessagePart:at:withArgument:" : "TB 6/12/2018 22:56",
+		"beforeKeystroke:from:" : "TB 6/12/2018 23:23",
+		"focusAfterReplace" : "TB 6/12/2018 23:30",
+		"focusLastArgument" : "TB 6/12/2018 22:57",
+		"focusSelector" : "TB 6/12/2018 22:57",
+		"messagePartEntryAt:" : "TB 6/12/2018 23:01",
+		"messagePartTextEntries" : "TB 6/12/2018 22:52",
+		"numArgs" : "TB 6/12/2018 23:04",
+		"printOn:" : "TB 6/12/2018 21:49",
+		"removeMessagePartAt:" : "TB 6/12/2018 23:28",
+		"requestDeleteFrom:" : "TB 6/13/2018 08:27",
+		"selector" : "TB 6/12/2018 22:52",
+		"setReceiver:selector:arguments:" : "TB 6/12/2018 23:00",
+		"textEntryIndexOf:" : "TB 5/20/2018 22:31" } }

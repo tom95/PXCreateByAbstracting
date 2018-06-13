@@ -1,7 +1,9 @@
 as yet unclassified
 afterKeystroke: anEvent from: aTextEntry previous: aString
 
-	(aTextEntry ~~ messagePartTextEntries first and: [(aTextEntry text endsWith: ':') not])
-		ifTrue: [aTextEntry textKeepCursor: aTextEntry text, ':'].
-
+	aTextEntry text notEmpty ifTrue: [
+		(self isValidForPart: aTextEntry text)
+			ifFalse: [^ aTextEntry textKeepCursor: aString]
+			ifTrue: [^ self run: (PXChangeMessagePart at: (self textEntryIndexOf: aTextEntry) replace: aString of: self to: aTextEntry text)]].
+		
 	super afterKeystroke: anEvent from: aTextEntry previous: aString

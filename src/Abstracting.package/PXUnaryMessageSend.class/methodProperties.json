@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"receiver:selector:" : "TB 6/12/2018 21:57",
+		"receiver:selector:arguments:" : "TB 6/12/2018 22:06" },
+	"instance" : {
+		"beforeKeystroke:from:" : "TB 6/13/2018 08:28",
+		"focusSelector" : "TB 6/12/2018 22:14",
+		"messagePartEntryAt:" : "TB 6/12/2018 23:35",
+		"printOn:" : "TB 6/12/2018 21:49",
+		"receiver:selector:" : "TB 6/12/2018 22:21",
+		"selector" : "TB 6/12/2018 21:51",
+		"textEntryIndexOf:" : "TB 6/13/2018 08:06" } }
