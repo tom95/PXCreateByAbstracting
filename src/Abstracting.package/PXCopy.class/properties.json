@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"method",
-		"commandPalette",
-		"focusedBubble",
-		"undoStack",
-		"redoStack",
-		"clipboard" ],
-	"name" : "PXEditor",
+		 ],
+	"name" : "PXCopy",
 	"pools" : [
 		 ],
-	"super" : "PHWidget",
+	"super" : "PXBubbleAction",
 	"type" : "normal" }
