@@ -4,7 +4,7 @@
 	"instance" : {
 		"afterKeystroke:from:previous:" : "TB 6/13/2018 08:14",
 		"argumentAt:" : "TB 5/15/2018 23:08",
-		"doubleClick:" : "TB 5/12/2018 11:18",
+		"doubleClick:" : "TB 6/13/2018 13:20",
 		"focus" : "TB 6/13/2018 08:35",
 		"focusAfterReplace" : "TB 6/12/2018 23:30",
 		"focusArgumentAt:" : "TB 5/15/2018 23:08",
@@ -12,7 +12,6 @@
 		"isValidForPart:" : "TB 6/13/2018 08:07",
 		"receiver" : "TB 5/14/2018 11:11",
 		"replaceWithNewSend:" : "TB 6/13/2018 08:26",
-		"replaceWithSend:" : "TB 6/13/2018 08:26",
 		"selector" : "TB 6/12/2018 22:19",
 		"textEntryIndexOf:" : "TB 6/13/2018 08:06",
 		"writeCodeStringOn:" : "TB 5/12/2018 09:35" } }

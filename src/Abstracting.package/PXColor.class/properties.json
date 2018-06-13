@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "PXTextEntry",
+	"name" : "PXColor",
 	"pools" : [
 		 ],
-	"super" : "PHTextCompletion",
+	"super" : "PXStatement",
 	"type" : "normal" }

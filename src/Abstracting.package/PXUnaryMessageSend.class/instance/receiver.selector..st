@@ -3,4 +3,6 @@ receiver: aBubble selector: aSymbol
 
 	self removeAllMorphs.
 	self add: aBubble.
-	self add: (textEntry := self createTextEntryFor: aSymbol asString)
+	self add: (textEntry := self createTextEntryFor: aSymbol asString).
+	
+	self setupCompletionFor: textEntry

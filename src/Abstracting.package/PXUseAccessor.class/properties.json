@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PXTextEntry",
+		"action" ],
+	"name" : "PXUseAccessor",
 	"pools" : [
 		 ],
-	"super" : "PHTextCompletion",
+	"super" : "PXBubbleAction",
 	"type" : "normal" }
