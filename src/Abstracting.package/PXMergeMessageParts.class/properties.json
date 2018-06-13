@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"bubble",
-		"index" ],
+		"index",
+		"removedPart",
+		"oldArgument" ],
 	"name" : "PXMergeMessageParts",
 	"pools" : [
 		 ],

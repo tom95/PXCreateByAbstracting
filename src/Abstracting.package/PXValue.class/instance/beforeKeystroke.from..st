@@ -2,7 +2,7 @@ as yet unclassified
 beforeKeystroke: anEvent from: aTextEntry
 
 	anEvent keyCharacter = Character space ifTrue: [
-		self run: (PXUseAsReceiver bubble: self selector: #''). ^ true].
+		self run: (PXUseAsReceiver bubble: self). ^ true].
 	
 	anEvent keyCharacter isSpecial ifTrue: [
 		self run: (PXUseAsReceiver bubble: self selector: anEvent keyCharacter asSymbol). ^ true].

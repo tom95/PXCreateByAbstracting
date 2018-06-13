@@ -1,10 +1,9 @@
 accessing
 selectedBubble: aBubble
 	
-	selectedBubble := aBubble.
+	selectedBubble == aBubble ifTrue: [^ self].
 	
-	aBubble
-		ifNil: [self disableAll]
-		ifNotNil: [
-			"TODO check capabilities"
-			buttons do: [ :b | b disabled: false]]
+	selectedBubble := aBubble.
+	self buttons removeAllMorphs.
+	
+	aBubble ifNotNil: [aBubble actions do: [:action | self buttons add: (self buttonForAction: action)]]

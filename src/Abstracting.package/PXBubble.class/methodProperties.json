@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"actions" : "TB 6/13/2018 11:49",
 		"addMessagePatternOf:withArguments:do:" : "TB 6/12/2018 22:53",
 		"afterKeystroke:from:previous:" : "TB 5/12/2018 15:52",
 		"basicDeselect" : "TB 5/12/2018 13:35",
-		"beforeKeystroke:from:" : "TB 5/20/2018 23:09",
+		"beforeKeystroke:from:" : "TB 6/13/2018 09:22",
 		"blockDepth" : "TB 5/6/2018 14:57",
 		"bubbleAfter" : "TB 5/12/2018 00:09",
 		"bubbleBefore" : "TB 5/12/2018 00:09",
@@ -38,7 +39,7 @@
 		"isString" : "TB 5/21/2018 00:07",
 		"isUnknown" : "TB 5/11/2018 23:55",
 		"isVariableName" : "TB 5/9/2018 14:34",
-		"keystrokeWhileSelected:from:" : "TB 5/22/2018 14:33",
+		"keystrokeWhileSelected:from:" : "TB 6/13/2018 11:56",
 		"lastBubble" : "TB 5/11/2018 14:19",
 		"methodBlock" : "TB 5/12/2018 10:07",
 		"mouseDown:" : "TB 5/6/2018 18:31",
@@ -53,6 +54,7 @@
 		"requestDeleteFrom:" : "TB 5/12/2018 00:32",
 		"root" : "TB 5/6/2018 17:06",
 		"run:" : "TB 6/12/2018 21:42",
+		"runAction:" : "TB 6/13/2018 11:44",
 		"select" : "TB 5/12/2018 13:56",
 		"selectDownFrom:" : "TB 5/22/2018 14:36",
 		"selectUp" : "TB 5/14/2018 11:44",
@@ -63,6 +65,6 @@
 		"wrapInAssignment" : "TB 5/12/2018 13:57",
 		"wrapInBlock" : "TB 5/12/2018 14:02",
 		"wrapInMessageSendAsArgument" : "TB 6/12/2018 22:07",
-		"wrapInMessageSendAsReceiver" : "TB 5/12/2018 14:58",
+		"wrapInMessageSendAsReceiver" : "TB 6/13/2018 11:24",
 		"wrapInReturn" : "TB 5/12/2018 14:00",
 		"writeCodeStringOn:" : "TB 5/12/2018 09:37" } }

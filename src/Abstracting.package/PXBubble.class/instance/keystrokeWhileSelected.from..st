@@ -4,13 +4,16 @@ keystrokeWhileSelected: anEvent from: aTextEntry
 	anEvent keyCharacter = Character escape ifTrue: [^ self deselect].
 	anEvent keyCharacter = Character arrowUp ifTrue: [^ self selectUp].
 	anEvent keyCharacter = Character arrowDown ifTrue: [^ self selectDownFrom: aTextEntry].
-	anEvent keyCharacter = $: ifTrue: [^ self wrapInAssignment].
+	
+	self actions do: [:action | action triggerForShortcut: anEvent do: [^ self runAction: action]]
+	
+	"anEvent keyCharacter = $: ifTrue: [^ self wrapInAssignment].
 	anEvent keyCharacter = Character backspace ifTrue: [^ self remove].
 	anEvent keyCharacter = Character delete ifTrue: [^ self removeOuter].
 	anEvent keyCharacter = $^ ifTrue: [^ self wrapInReturn].
 	anEvent keyCharacter = $[ ifTrue: [^ self wrapInBlock].
 	anEvent keyCharacter = $< ifTrue: [^ self wrapInMessageSendAsArgument].
-	anEvent keyCharacter = $> ifTrue: [^ self wrapInMessageSendAsReceiver].
+	anEvent keyCharacter = $> ifTrue: [^ self wrapInMessageSendAsReceiver]."
 	
 	"anEvent keyString = '<right>' ifTrue: [
 		^ self bubbleAfter ifNotNilDo: [:bubble| bubble select]].

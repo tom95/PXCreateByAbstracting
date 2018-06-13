@@ -1,5 +1,5 @@
 as yet unclassified
-of: aBubble
+bubble: aBubble
 
 	^ self new
 		bubble: aBubble;

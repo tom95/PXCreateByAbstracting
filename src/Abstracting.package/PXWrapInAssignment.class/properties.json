@@ -1,0 +1,14 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"action" ],
+	"name" : "PXWrapInAssignment",
+	"pools" : [
+		 ],
+	"super" : "PXBubbleAction",
+	"type" : "normal" }

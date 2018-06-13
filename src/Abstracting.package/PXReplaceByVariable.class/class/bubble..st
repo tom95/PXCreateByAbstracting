@@ -1,4 +1,4 @@
 as yet unclassified
 bubble: aBubble
 
-	bubble := aBubble
+	^ self bubble: aBubble name: 'x'

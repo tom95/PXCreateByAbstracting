@@ -6,12 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"bubble",
 		"messageSend",
 		"selector",
 		"trailingTextEntry" ],
 	"name" : "PXUseAsReceiver",
 	"pools" : [
 		 ],
-	"super" : "PXCommand",
+	"super" : "PXBubbleAction",
 	"type" : "normal" }

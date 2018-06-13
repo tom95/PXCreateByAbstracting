@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"bubble",
 		"previousOwner",
 		"previousIndex" ],
 	"name" : "PXDeleteSelf",
 	"pools" : [
 		 ],
-	"super" : "PXCommand",
+	"super" : "PXBubbleAction",
 	"type" : "normal" }

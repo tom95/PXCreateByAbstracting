@@ -7,7 +7,7 @@ beforeKeystroke: anEvent from: aTextEntry
 		self selectUp. ^ true].
 	
 	anEvent keyCharacter = Character arrowDown ifTrue: [
-		self selectDown. ^ true].
+		self selectDownFrom: aTextEntry. ^ true].
 	
 	(anEvent keyCharacter = Character arrowLeft and: [aTextEntry cursorAtStart and: [aTextEntry hasSelection not]]) ifTrue: [
 		aTextEntry closestTextEntryBefore takeCursorAtEnd. ^ true].

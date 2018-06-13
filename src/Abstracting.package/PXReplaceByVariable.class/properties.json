@@ -6,12 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"bubble",
 		"name",
 		"assignment",
 		"variable" ],
 	"name" : "PXReplaceByVariable",
 	"pools" : [
 		 ],
-	"super" : "PXCommand",
+	"super" : "PXBubbleAction",
 	"type" : "normal" }

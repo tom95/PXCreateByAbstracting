@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"bubble",
 		"previousOwner" ],
 	"name" : "PXDeleteOuter",
 	"pools" : [
 		 ],
-	"super" : "PXCommand",
+	"super" : "PXBubbleAction",
 	"type" : "normal" }

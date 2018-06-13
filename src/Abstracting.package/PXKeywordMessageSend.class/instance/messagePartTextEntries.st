@@ -5,4 +5,4 @@ messagePartTextEntries
 	index := 1.
 	^ self submorphs select: [:m | 
 		index := index + 1.
-		(index - 1) even]
+		(index - 1) even and: [m ~~ trailingTextEntry]]

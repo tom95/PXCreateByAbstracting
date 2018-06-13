@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"bubble:selector:" : "TB 5/12/2018 01:18" },
+		"bubble:" : "TB 6/13/2018 11:23",
+		"bubble:selector:" : "TB 5/12/2018 01:18",
+		"description" : "TB 6/13/2018 11:31",
+		"shortcut" : "TB 6/13/2018 11:41" },
 	"instance" : {
-		"bubble" : "TB 5/12/2018 01:15",
-		"bubble:" : "TB 5/12/2018 01:15",
 		"do" : "TB 6/12/2018 22:07",
 		"messageSend" : "TB 5/12/2018 01:18",
 		"selector" : "TB 5/12/2018 01:18",
