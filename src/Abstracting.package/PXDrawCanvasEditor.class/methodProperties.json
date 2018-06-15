@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"open" : "TB 6/15/2018 19:08",
 		"sampleEditor" : "cjg 6/15/2018 17:40" },
 	"instance" : {
 		"canvas" : "cjg 5/23/2018 10:51",
@@ -9,4 +10,4 @@
 		"initialize" : "cjg 5/23/2018 11:12",
 		"makeCanvas" : "cjg 6/15/2018 19:00",
 		"runMethod" : "cjg 6/15/2018 18:56",
-		"runMethod:" : "cjg 6/15/2018 18:59" } }
+		"runMethod:" : "TB 6/15/2018 19:09" } }
