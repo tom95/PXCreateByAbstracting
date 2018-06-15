@@ -7,7 +7,7 @@ keyStroke: anEvent
 	self suggestionsOpen ifTrue: [
 		anEvent keyCharacter = Character arrowDown ifTrue: [^ self moveActiveSuggestion: 1].
 		anEvent keyCharacter = Character arrowDown ifTrue: [^ self moveActiveSuggestion: -1].
-		(anEvent keyCharacter = Character tab or: [anEvent keyCharacter = Character enter]) ifTrue: [^ self useActiveSuggestion].
+		(anEvent keyCharacter = Character tab or: [anEvent keyString = '<cr>']) ifTrue: [^ self useActiveSuggestion].
 		anEvent keyCharacter = Character escape ifTrue: [^ self closeSuggestionPopup]].
 	
 	(self owner beforeKeystroke: anEvent from: self) ifTrue: [^ self].
