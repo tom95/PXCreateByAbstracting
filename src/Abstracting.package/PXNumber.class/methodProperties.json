@@ -4,11 +4,11 @@
 	"instance" : {
 		"afterKeystroke:from:previous:" : "TB 5/12/2018 08:44",
 		"handlesMouseMove:" : "TB 5/6/2018 16:20",
-		"incompleteFrom:" : "TB 5/12/2018 13:48",
+		"incompleteFrom:" : "cjg 6/15/2018 18:47",
 		"initialize" : "TB 5/6/2018 16:20",
 		"isLiteral" : "TB 5/12/2018 12:09",
 		"isNumber" : "TB 5/7/2018 00:16",
-		"mouseMove:" : "TB 5/12/2018 13:47",
+		"mouseMove:" : "cjg 6/15/2018 18:41",
 		"mouseUp:" : "TB 5/6/2018 16:20",
 		"possibleClass" : "TB 6/13/2018 12:39",
 		"printOn:" : "TB 5/12/2018 13:49",

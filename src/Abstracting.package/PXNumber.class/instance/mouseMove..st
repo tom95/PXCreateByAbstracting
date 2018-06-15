@@ -5,4 +5,4 @@ mouseMove: anEvent
 	deltaX := anEvent endPoint x - anEvent startPoint x.
 	newNumber := self data + deltaX.
 	
-	self data: (self data isInteger ifTrue: [newNumber truncated] ifFalse: [newNumber])
+	self changedData: (self data isInteger ifTrue: [newNumber truncated] ifFalse: [newNumber])
