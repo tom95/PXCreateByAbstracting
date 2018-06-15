@@ -10,7 +10,7 @@
 		"bubbleColor" : "TB 5/6/2018 14:58",
 		"colorForDepth:" : "TB 5/8/2018 11:39",
 		"containingBlock" : "TB 5/6/2018 19:00",
-		"declarationNodes" : "cjg 5/23/2018 11:35",
+		"declarationNodes" : "cjg 6/5/2018 16:45",
 		"declarations" : "cjg 5/23/2018 11:25",
 		"declarations:" : "cjg 5/23/2018 11:25",
 		"drawOn:" : "TB 5/6/2018 19:49",
@@ -27,4 +27,4 @@
 		"setStatements:temporaries:arguments:" : "TB 5/6/2018 22:11",
 		"statements" : "TB 5/12/2018 08:14",
 		"writeCodeStringOn:" : "TB 5/12/2018 09:43",
-		"writeCodeStringOn:isMethodBlock:" : "TB 5/12/2018 09:42" } }
+		"writeCodeStringOn:isMethodBlock:" : "cjg 6/15/2018 17:13" } }

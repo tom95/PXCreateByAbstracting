@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"sampleEditor" : "cjg 5/23/2018 11:12" },
+		"sampleEditor" : "cjg 6/15/2018 17:40" },
 	"instance" : {
 		"canvas" : "cjg 5/23/2018 10:51",
 		"canvas:" : "cjg 5/23/2018 10:51",
 		"editor" : "TB 5/14/2018 12:04",
-		"editor:" : "cjg 5/23/2018 11:12",
+		"editor:" : "cjg 6/15/2018 17:46",
 		"initialize" : "cjg 5/23/2018 11:12",
-		"makeCanvas" : "cjg 5/23/2018 11:19",
-		"runMethod:" : "cjg 5/25/2018 14:03" } }
+		"makeCanvas" : "cjg 6/15/2018 17:43",
+		"runMethod" : "cjg 6/15/2018 17:43",
+		"runMethod:" : "cjg 6/15/2018 17:34" } }
