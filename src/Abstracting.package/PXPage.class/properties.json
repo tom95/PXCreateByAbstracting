@@ -1,0 +1,14 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PXPage",
+	"pools" : [
+		 ],
+	"super" : "PHPage",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 redo
 
 	undoStack addLast: redoStack removeLast do; yourself.

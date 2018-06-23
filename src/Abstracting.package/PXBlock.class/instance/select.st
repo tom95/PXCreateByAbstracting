@@ -2,5 +2,5 @@ as yet unclassified
 select
 
 	self blockDepth = 1
-		ifTrue: [self root clearSelection]
+		ifTrue: [self editor clearSelection]
 		ifFalse: [super select]

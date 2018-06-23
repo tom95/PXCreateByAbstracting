@@ -1,4 +1,4 @@
 as yet unclassified
 methodBlock
 
-	^ self root block
+	^ self method block

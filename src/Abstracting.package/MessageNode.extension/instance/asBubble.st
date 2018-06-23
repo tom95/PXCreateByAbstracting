@@ -5,5 +5,5 @@ asBubble
 
 	^ (PXMessageSend classForSelector: self selector key)
 		receiver: self receiver asBubble
-		selector: self selector key
+		selector: originalSelector
 		arguments: (originalArguments collect: #asBubble)

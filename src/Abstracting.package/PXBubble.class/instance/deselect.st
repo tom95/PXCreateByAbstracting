@@ -1,4 +1,4 @@
 as yet unclassified
 deselect
 
-	self root selectedBubble: nil
+	self editor selectedBubble: nil

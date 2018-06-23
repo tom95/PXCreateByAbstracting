@@ -1,6 +1,4 @@
-accessing
+as yet unclassified
 focusedBubble: aBubble
 
-	focusedBubble := aBubble.
-	
-	self commandPalette selectionInfo: aBubble printString
+	focusedBubble := aBubble

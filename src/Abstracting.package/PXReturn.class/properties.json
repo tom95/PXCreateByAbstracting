@@ -10,5 +10,5 @@
 	"name" : "PXReturn",
 	"pools" : [
 		 ],
-	"super" : "PXStatement",
+	"super" : "PXBubble",
 	"type" : "normal" }

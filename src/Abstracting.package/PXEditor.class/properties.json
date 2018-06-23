@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"method",
-		"commandPalette",
 		"focusedBubble",
+		"selectedBubble",
 		"undoStack",
 		"redoStack",
-		"clipboard" ],
+		"clipboard",
+		"commandPalette" ],
 	"name" : "PXEditor",
 	"pools" : [
 		 ],
