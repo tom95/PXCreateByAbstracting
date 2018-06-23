@@ -3,7 +3,7 @@ substituteTo: aToken
 
 	| simpleReplace |
 	simpleReplace := [self run: (PXReplace bubble: aToken with: (PXIdentifier value: self name))].
-	self flag.
+	self flag: #refactor.
 	
 	aToken isNumber
 		ifTrue: [
