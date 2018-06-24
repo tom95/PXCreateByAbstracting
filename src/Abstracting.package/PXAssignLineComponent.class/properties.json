@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"textEntry" ],
-	"name" : "PXVariableName",
+		"highlighted",
+		"line",
+		"hasMouseDown",
+		"bubble" ],
+	"name" : "PXAssignLineComponent",
 	"pools" : [
 		 ],
-	"super" : "PXBubble",
+	"super" : "Object",
 	"type" : "normal" }

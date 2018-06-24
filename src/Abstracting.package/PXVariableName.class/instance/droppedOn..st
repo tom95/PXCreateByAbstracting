@@ -1,5 +1,5 @@
-as yet unclassified
-substituteTo: aToken
+assign line
+droppedOn: aToken
 
 	| simpleReplace |
 	simpleReplace := [self run: (PXReplace bubble: aToken with: (PXIdentifier value: self name))].
