@@ -1,8 +1,7 @@
 as yet unclassified
 mouseMove: anEvent
 
-	| deltaX newNumber |
+	| deltaX |
+	self owner isPoint ifTrue: [^ self owner mouseMove: anEvent].
 	deltaX := anEvent endPoint x - anEvent startPoint x.
-	newNumber := self data + deltaX.
-	
-	self changedData: (self data isInteger ifTrue: [newNumber truncated] ifFalse: [newNumber])
+	self changeDelta: deltaX
