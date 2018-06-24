@@ -1,10 +1,6 @@
 as yet unclassified
 afterKeystroke: anEvent from: aTextEntry previous: aString
 
-	data := aTextEntry text.
-	self updateBold.
-	"self root allMorphsDo: [:m | (m isBubble and: [m isIdentifier and: [m value = aString and: [m ~~ self]]]) ifTrue: [m value: self value]]".
-	
 	(aTextEntry text = 'true' or: [aTextEntry text = 'false']) ifTrue: [
 		^ self run: (PXReplace bubble: self with: (PXBoolean incompleteFrom: aTextEntry text))].
 	

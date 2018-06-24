@@ -5,5 +5,5 @@ setFromSource: aString in: aClass
 	method := Parser new parse: aString class: aClass noPattern: false notifying: nil ifFail: nil.
 	class := aClass.
 	
-	self add: (PXBubble new add: method patternAsBubble).
+	self add: method patternAsBubble.
 	self add: (method block asBubbleWithTemporaries: method temporaries)

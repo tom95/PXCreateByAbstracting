@@ -4,5 +4,5 @@ run: aCommand
 	| editor |
 	editor := self editor.
 	aCommand do.
-	editor registerUndoableAction: aCommand.
+	editor registerUndoableAction: aCommand from: self method.
 	^ true

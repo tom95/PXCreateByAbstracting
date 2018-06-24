@@ -3,7 +3,7 @@ addTemporaryVariable: aName
 
 	^ declarations
 		ifNil: [ | temp |
-			temp := PXVariableName name: aName.
+			temp := PXVariableDeclaration name: aName.
 			self addMorph: (declarations := PXTemporaryDeclaration
 				blockArguments: #()
 				temporaries: {temp}).

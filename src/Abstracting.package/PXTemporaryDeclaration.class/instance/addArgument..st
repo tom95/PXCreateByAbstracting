@@ -7,6 +7,6 @@ addArgument: aString
 		ifTrue: [self addMorphFront: (self createLabelFor: '|')]
 		ifFalse: [(self submorphs findFirst: [:m | m isBlock not]) - 1].
 		
-	var := PXVariableName name: aString.
+	var := PXVariableDeclaration name: aString.
 	self addMorph: var asElementNumber: index.
 	^ var

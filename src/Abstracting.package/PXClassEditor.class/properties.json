@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"methods" ],
+		"methods",
+		"instanceVariables",
+		"classDescription",
+		"contextClass" ],
 	"name" : "PXClassEditor",
 	"pools" : [
 		 ],

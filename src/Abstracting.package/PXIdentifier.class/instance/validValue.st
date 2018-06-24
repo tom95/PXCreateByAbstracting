@@ -1,5 +1,4 @@
 as yet unclassified
 validValue
 
-	" we block all non valid input "
-	^ true
+	^ self isReserved or: [self resolveDeclaration notNil]

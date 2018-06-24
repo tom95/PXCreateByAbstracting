@@ -1,2 +1,4 @@
 as yet unclassified
-afterChange
+data
+
+	^ self name

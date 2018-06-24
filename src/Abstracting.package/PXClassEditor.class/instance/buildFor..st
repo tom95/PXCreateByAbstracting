@@ -1,11 +1,13 @@
 as yet unclassified
 buildFor: aClass
 
+	contextClass :=  aClass.
+
 	self
 		extent: self initialExtent;
-		add: (PXPage column
+		add: (classDescription := PXPage column
 			add: ((PHLabel heading: aClass name) position: 10 @ 10);
-			add: (PXPage row addAll: (aClass instVarNames collect: [:name | PXVariableName name: name]));
+			add: (instanceVariables := PXPage row addAll: (aClass instVarNames collect: [:name | PXVariableDeclaration name: name]));
 			resizeToPreferred).
 		
 	aClass methodsDo: [:method | | methodBubble |

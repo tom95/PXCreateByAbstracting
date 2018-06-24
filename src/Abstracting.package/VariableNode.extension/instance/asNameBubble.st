@@ -1,4 +1,4 @@
 *Abstracting
 asNameBubble
 
-	^ PXVariableName name: self name
+	^ PXVariableDeclaration name: self name

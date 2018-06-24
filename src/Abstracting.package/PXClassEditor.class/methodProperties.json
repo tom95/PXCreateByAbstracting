@@ -2,7 +2,11 @@
 	"class" : {
 		"for:" : "TB 6/23/2018 17:24" },
 	"instance" : {
-		"buildFor:" : "TB 6/24/2018 00:24",
+		"addInstanceVariable:" : "TB 6/24/2018 18:32",
+		"afterChangeFrom:" : "TB 6/24/2018 19:31",
+		"bubbleForInstanceVariable:" : "TB 6/24/2018 12:12",
+		"buildFor:" : "TB 6/24/2018 18:41",
+		"contextClass" : "TB 6/24/2018 18:42",
 		"editor" : "TB 6/23/2018 17:41",
 		"initialExtent" : "TB 6/23/2018 17:50",
 		"initialize" : "TB 6/23/2018 17:41" } }

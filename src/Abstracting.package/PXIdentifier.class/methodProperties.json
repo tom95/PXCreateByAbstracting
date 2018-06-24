@@ -1,17 +1,28 @@
 {
 	"class" : {
-		"self" : "TB 6/24/2018 09:02" },
+		"incompleteFrom:" : "TB 6/24/2018 17:17",
+		"self" : "TB 6/24/2018 09:02",
+		"value:" : "TB 6/24/2018 17:18" },
 	"instance" : {
 		"actions" : "TB 6/13/2018 14:34",
-		"afterKeystroke:from:previous:" : "TB 5/20/2018 23:14",
+		"afterKeystroke:from:previous:" : "TB 6/24/2018 12:23",
 		"asNode" : "TB 5/12/2018 13:49",
 		"beforeKeystroke:from:" : "TB 5/11/2018 22:17",
+		"contextActions" : "TB 6/24/2018 17:22",
 		"data:" : "TB 5/12/2018 13:51",
+		"declareNewBlockVar" : "TB 6/24/2018 18:15",
+		"declareNewInstanceVar" : "TB 6/24/2018 18:37",
+		"declareNewTempVar" : "TB 6/24/2018 17:23",
 		"displayValueAsString" : "TB 5/12/2018 13:49",
-		"incompleteFrom:" : "TB 5/11/2018 23:37",
+		"incompleteFrom:" : "TB 6/24/2018 12:25",
 		"isIdentifier" : "TB 5/6/2018 22:44",
 		"isReserved" : "TB 6/13/2018 09:41",
 		"possibleClass" : "TB 6/23/2018 22:46",
 		"printOn:" : "TB 5/12/2018 00:58",
+		"renameDeclaration" : "TB 6/24/2018 18:15",
+		"resolveDeclaration" : "TB 6/24/2018 17:20",
+		"resolveDeclaration:" : "TB 6/24/2018 17:20",
+		"uneditedName" : "TB 6/24/2018 17:17",
+		"uneditedName:" : "TB 6/24/2018 17:17",
 		"updateBold" : "TB 6/13/2018 09:41",
-		"validValue" : "TB 5/11/2018 23:27" } }
+		"validValue" : "TB 6/24/2018 18:12" } }

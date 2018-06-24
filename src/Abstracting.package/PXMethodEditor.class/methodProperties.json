@@ -4,8 +4,10 @@
 		"for:of:" : "TB 5/16/2018 11:09",
 		"fromSource:in:" : "TB 5/9/2018 23:59" },
 	"instance" : {
-		"afterChange" : "TB 6/23/2018 23:41",
+		"afterChangeFrom:" : "TB 6/24/2018 19:29",
+		"bubbleForInstanceVariable:" : "TB 6/24/2018 17:33",
 		"context" : "TB 6/24/2018 09:02",
+		"contextClass" : "TB 6/24/2018 18:42",
 		"focusedBubble:" : "TB 6/23/2018 22:50",
 		"initialize" : "TB 6/23/2018 23:38",
 		"method" : "cjg 5/9/2018 14:03",

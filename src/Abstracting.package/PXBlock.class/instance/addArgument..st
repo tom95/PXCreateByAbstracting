@@ -3,7 +3,7 @@ addArgument: aString
 
 	^ declarations
 		ifNil: [ | var |
-			var := PXVariableName name: aString.
+			var := PXVariableDeclaration name: aString.
 			self addMorph: (declarations := PXTemporaryDeclaration
 				blockArguments: {var}
 				temporaries: #()).

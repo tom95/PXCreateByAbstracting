@@ -1,7 +1,7 @@
 as yet unclassified
 beforeKeystroke: anEvent from: aTextEntry
 
-	anEvent keyCharacter = Character space ifTrue: [
+	(anEvent keyCharacter = Character space and: [anEvent anyModifierKeyPressed not]) ifTrue: [
 		self run: (PXUseAsReceiver bubble: self). ^ true].
 	
 	anEvent keyCharacter isSpecial ifTrue: [

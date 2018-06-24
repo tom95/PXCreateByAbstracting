@@ -1,9 +1,15 @@
 as yet unclassified
 keystrokeWhileSelected: anEvent from: aTextEntry
 
-	anEvent keyCharacter = Character escape ifTrue: [^ self deselect].
-	anEvent keyCharacter = Character arrowUp ifTrue: [^ self selectUp].
-	anEvent keyCharacter = Character arrowDown ifTrue: [^ self selectDownFrom: aTextEntry].
+	anEvent keyCharacter = Character escape ifTrue: [
+		contextDropdown ifNotNil: [self closeContextDropdown].
+		^ self deselect].
+	anEvent keyCharacter = Character arrowUp ifTrue: [
+		contextDropdown ifNotNil: [^ contextDropdown selectPrevious].
+		^ self selectUp].
+	anEvent keyCharacter = Character arrowDown ifTrue: [
+		contextDropdown ifNotNil: [^ contextDropdown selectNext].
+		^ self selectDownFrom: aTextEntry].
 	
 	self actions do: [:action | action triggerForShortcut: anEvent do: [^ self runAction: action]]
 	
