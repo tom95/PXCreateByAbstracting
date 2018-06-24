@@ -1,4 +1,4 @@
 as yet unclassified
 context
 
-	^ self method class
+	^ self method contextClass

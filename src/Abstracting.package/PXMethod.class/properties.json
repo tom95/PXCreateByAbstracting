@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedBubble",
 		"class" ],
 	"name" : "PXMethod",
 	"pools" : [

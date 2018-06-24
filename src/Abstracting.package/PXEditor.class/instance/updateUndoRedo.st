@@ -1,6 +1,2 @@
-accessing
+as yet unclassified
 updateUndoRedo
-
-	self commandPalette
-		undoDisabled: undoStack isEmpty;
-		redoDisabled: redoStack isEmpty

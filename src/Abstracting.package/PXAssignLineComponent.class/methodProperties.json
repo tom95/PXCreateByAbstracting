@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"bubble:" : "TB 6/24/2018 08:17" },
+	"instance" : {
+		"bubble" : "TB 6/24/2018 08:24",
+		"bubble:" : "TB 6/24/2018 08:48",
+		"clearHighlighted" : "TB 6/24/2018 08:19",
+		"dropTargetAt:do:ifNone:" : "TB 6/24/2018 08:31",
+		"handlesMouseMove:" : "TB 6/24/2018 08:15",
+		"initialize" : "TB 6/24/2018 08:15",
+		"mouseMove:" : "TB 6/24/2018 08:45",
+		"mouseUp:" : "TB 6/24/2018 08:31",
+		"startDrag:" : "TB 6/24/2018 08:58" } }

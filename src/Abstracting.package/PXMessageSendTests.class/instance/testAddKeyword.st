@@ -2,7 +2,7 @@ as yet unclassified
 testAddKeyword
 
 	| messageSend receiver owner |
-	owner := PXEditor for: Object.
+	owner := PXMethodEditor for: Object.
 	receiver := PXIdentifier new data: 'self'.
 	messageSend := PXKeywordMessageSend receiver: receiver selector: #do:while: arguments: #().
 	owner add: messageSend.

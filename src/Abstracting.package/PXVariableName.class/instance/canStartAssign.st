@@ -1,0 +1,4 @@
+assign line
+canStartAssign
+
+	^ true

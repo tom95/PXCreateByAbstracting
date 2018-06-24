@@ -1,0 +1,17 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"highlighted",
+		"line",
+		"hasMouseDown",
+		"bubble" ],
+	"name" : "PXAssignLineComponent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

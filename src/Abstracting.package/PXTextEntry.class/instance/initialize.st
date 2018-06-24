@@ -3,4 +3,6 @@ initialize
 
 	super initialize.
 	
-	self removeStyleClass: #textArea
+	self
+		removeStyleClass: #textArea;
+		openSuggestionsOnFocus: false

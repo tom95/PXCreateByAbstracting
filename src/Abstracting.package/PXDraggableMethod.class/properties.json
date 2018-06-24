@@ -1,0 +1,18 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"method",
+		"cached",
+		"scale",
+		"currentForm",
+		"dragReference" ],
+	"name" : "PXDraggableMethod",
+	"pools" : [
+		 ],
+	"super" : "PXBubble",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"durationStartDragScaling" : "TB 6/23/2018 18:49",
+		"scaleWhileMoving" : "TB 6/23/2018 18:48" },
+	"instance" : {
+		"drawOn:" : "TB 6/24/2018 00:16",
+		"initialize" : "TB 6/23/2018 18:41",
+		"isBubble" : "TB 6/23/2018 18:33",
+		"method" : "TB 6/23/2018 17:59",
+		"method:" : "TB 6/24/2018 00:14",
+		"mouseMove:" : "TB 6/23/2018 18:48",
+		"mouseUp:" : "TB 6/24/2018 00:08",
+		"scale" : "TB 6/23/2018 18:39",
+		"scale:" : "TB 6/23/2018 18:41",
+		"startDrag:" : "TB 6/24/2018 00:14",
+		"updateCache" : "TB 6/23/2018 22:41" } }

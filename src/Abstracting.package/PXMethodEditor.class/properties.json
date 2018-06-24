@@ -1,0 +1,14 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"method" ],
+	"name" : "PXMethodEditor",
+	"pools" : [
+		 ],
+	"super" : "PXEditor",
+	"type" : "normal" }

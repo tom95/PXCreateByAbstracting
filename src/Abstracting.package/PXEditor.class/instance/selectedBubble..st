@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 selectedBubble: aBubble
 	
 	selectedBubble ifNotNilDo: #basicDeselect.
