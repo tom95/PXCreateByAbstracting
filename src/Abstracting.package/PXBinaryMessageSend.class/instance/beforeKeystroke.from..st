@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 beforeKeystroke: anEvent from: aTextEntry
 
 	(anEvent keyCharacter == Character backspace and: [aTextEntry cursorAtStart]) ifTrue: [
