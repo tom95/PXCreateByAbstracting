@@ -2,10 +2,12 @@
 	"class" : {
 		"color:" : "TB 6/13/2018 14:51" },
 	"instance" : {
+		"changedColor:" : "cjg 6/26/2018 13:39",
 		"click:" : "TB 6/13/2018 15:00",
 		"color" : "TB 6/13/2018 14:51",
-		"color:" : "TB 6/13/2018 14:55",
+		"color:" : "cjg 6/26/2018 13:39",
 		"drawOn:" : "TB 6/13/2018 15:02",
 		"focus" : "TB 6/13/2018 14:52",
+		"incompleteFrom:" : "cjg 6/26/2018 13:40",
 		"initialize" : "TB 6/13/2018 14:56",
 		"writeCodeStringOn:" : "TB 6/13/2018 15:02" } }
