@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isInCascade" ],
-	"name" : "PXMessageSend",
+		 ],
+	"name" : "PXFinalPresentation",
 	"pools" : [
 		 ],
-	"super" : "PXStatement",
+	"super" : "PHPresentation",
 	"type" : "normal" }

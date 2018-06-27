@@ -5,12 +5,13 @@
 	"instance" : {
 		"beforeKeystroke:from:" : "TB 6/13/2018 08:28",
 		"focusSelector" : "TB 6/12/2018 22:14",
+		"isInCascade" : "TB 6/27/2018 09:53",
 		"messagePartEntryAt:" : "TB 6/12/2018 23:35",
 		"printOn:" : "TB 6/12/2018 21:49",
-		"receiver:selector:" : "TB 6/13/2018 13:11",
+		"receiver:selector:" : "TB 6/27/2018 09:53",
 		"selector" : "TB 6/12/2018 21:51",
 		"setupCompletionFor:" : "TB 6/13/2018 13:31",
 		"suggestionsFor:" : "TB 6/13/2018 13:15",
 		"textEntryIndexOf:" : "TB 6/13/2018 08:06",
-		"updateSuggestionsFor:" : "TB 6/13/2018 13:15",
+		"updateSuggestionsFor:" : "TB 6/27/2018 09:58",
 		"writeCodeStringOn:" : "cjg 6/15/2018 17:16" } }

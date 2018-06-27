@@ -1,8 +1,5 @@
 as yet unclassified
 messagePartTextEntries
 
-	| index |
-	index := 1.
-	^ self submorphs select: [:m | 
-		index := index + 1.
-		(index - 1) even and: [m ~~ trailingTextEntry]]
+	^ (Interval from: 1 + (isInCascade ifTrue: [0] ifFalse: [1]) to: self submorphs size - 1 by: 2)
+		collect: [ :i | self submorphs at: i]

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"receiver:messages:" : "TB 6/26/2018 19:17" },
+	"instance" : {
+		"initialize" : "TB 6/27/2018 10:08",
+		"messages" : "TB 6/27/2018 10:12",
+		"receiver" : "TB 6/27/2018 10:12",
+		"setReceiver:messages:" : "TB 6/27/2018 10:03",
+		"writeCodeStringOn:" : "TB 6/27/2018 10:13" } }

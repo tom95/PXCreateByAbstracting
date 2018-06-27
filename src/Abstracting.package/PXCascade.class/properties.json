@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isInCascade" ],
-	"name" : "PXMessageSend",
+		"messages" ],
+	"name" : "PXCascade",
 	"pools" : [
 		 ],
 	"super" : "PXStatement",

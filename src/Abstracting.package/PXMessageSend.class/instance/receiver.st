@@ -1,4 +1,4 @@
 as yet unclassified
 receiver
 
-	^ self firstSubmorph
+	^ isInCascade ifTrue: [nil] ifFalse: [self firstSubmorph]

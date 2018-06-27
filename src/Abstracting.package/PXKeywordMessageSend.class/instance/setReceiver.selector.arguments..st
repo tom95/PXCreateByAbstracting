@@ -3,7 +3,8 @@ setReceiver: aReceiverExpression selector: aSymbol arguments: aCollectionOfExpre
 
 	self removeAllMorphs.
 	
-	self add: aReceiverExpression.
+	isInCascade := aReceiverExpression isNil.
+	isInCascade ifFalse: [self add: aReceiverExpression].
 	
 	self
 		addMessagePatternOf: aSymbol
