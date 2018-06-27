@@ -1,0 +1,14 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TreeMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
