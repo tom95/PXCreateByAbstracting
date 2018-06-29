@@ -1,7 +1,7 @@
 *Abstracting
 asBubble
 
-	(self selector key = #red and: [self receiver name = 'Color']) ifTrue: [^ PXColor color: Color red].
+	(self receiver name = 'Color' and: [Color canUnderstand: self selector key]) ifTrue: [^ PXColor color: (Color perform: self selector key)].
 
 	^ (PXMessageSend classForSelector: self selector key)
 		receiver: (self receiver ifNotNil: #asBubble)
