@@ -3,4 +3,3 @@ color: aColor
 
 	color := aColor.
 	self changed.
-	self changedColor: aColor

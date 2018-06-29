@@ -1,3 +1,3 @@
 as yet unclassified
 incompleteFrom: aValue
-	"do nothing"
+	self color: aValue
