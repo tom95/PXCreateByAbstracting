@@ -2,7 +2,7 @@ as yet unclassified
 keyStroke: anEvent
 
 	| previous |
-	self owner root withSelectedDo: [:selected | ^ selected keystrokeWhileSelected: anEvent from: self].
+	self owner editor withSelectedDo: [:selected | ^ selected keystrokeWhileSelected: anEvent from: self].
 	
 	self suggestionsOpen ifTrue: [
 		anEvent keyCharacter = Character arrowDown ifTrue: [^ self moveActiveSuggestion: 1].

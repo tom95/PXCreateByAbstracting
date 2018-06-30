@@ -1,6 +1,6 @@
 as yet unclassified
 select
 
-	self root selectedBubble: self.
+	self editor selectedBubble: self.
 	selected := true.
 	self changed

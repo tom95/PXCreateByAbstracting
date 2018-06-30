@@ -7,20 +7,14 @@ self addSlideWithCenterBox
 
 self addSlideWithLayout
 	add: (PHLabel pageHeader: '„Learnable Programming“');
-	add: ((PHImage path: FileDirectory default / 'px-dnd.png') align: #(center center)).
-" an essay by Bret Victor that he wrote after his live-coding work was quoted as inspiration for Khan Academy's JavaScript learning editor. Essentially he demonstrates multiple properties that an environemnt that supports learning programing should support, which the Khan Academy editor lacks "
-" --> show image of the editor, maybe from show-the-state "
+	add: ((PHImage path: FileDirectory default / 'learnable_programming.png') align: #(center center)).
 
 self addSlideWithCenterBox
-	add: ((PHLabel pageHeader: '„Create By Abstracting“'));
-	add: (PHLabel subcategoryHeader: 'start concrete, then abstract').
-	"TODO ADD GIF"
-" we picked one of the aspects Victor mentions, namely create by abstracting. It's essentially the statement that you will want to just put whatever values fit right now for you, maybe experiment with them until you find something that you like. You can then go in and name that concept that you just changed, thereby abstracting it "
+	add: (PXDrawCanvasEditor fromSource: 'drawOn: aCanvas aCanvas drawRectangle: 80 @ 80 extent: 40 @ 24. aCanvas drawTriangleFrom: 80 @ 80 to: 100 @ 60 and: 120 @ 80').
 
 self addSlideWithLayout
-	add: (PHLabel pageHeader: 'First Protoype').
-" we quickly realized that, as seen in the gif, we will have to make somehow tangible. we chose to do by running a tokenizer over a given function and creating a separate morph for each part. this however, had numerous downsides, in particular a disconnect between what the programmer means and what we abstracted as an object. To put this more clearly, when we write code, we don't think in terms of tokens like the := or the first part of an at:put:. We think in terms of assignments or message sends."
-" --> show first protoype, maybe what splitting into tokens means "
+	add: (PHLabel pageHeader: 'Projectional  Editing');
+	add: ((PHImage path: FileDirectory default / 'ast-vs-projection.png') framed: false; align: #(center center)).
 
 self addSlideWithLayout
 	add: (PHLabel pageHeader: 'Enter Projectional Editing').

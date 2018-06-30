@@ -4,4 +4,4 @@ initialize
 	super initialize.
 	
 	self removeSlideAt: 1.
-	self initialize03ProjectionalEditors
+	self initialize04Discussion
