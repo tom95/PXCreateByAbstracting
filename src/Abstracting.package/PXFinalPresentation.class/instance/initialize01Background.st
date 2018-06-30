@@ -7,14 +7,14 @@ self addSlideWithCenterBox
 
 self addSlideWithLayout
 	add: (PHLabel pageHeader: '„Learnable Programming“');
-	add: ((PHImage path: (self class imagePath: 'learnable_programming.png')) align: #(center center)).
+	add: ((PHImage path: FileDirectory default / 'learnable_programming.png') align: #(center center)).
 
 self addSlideWithCenterBox
 	add: (PXDrawCanvasEditor fromSource: 'drawOn: aCanvas aCanvas drawRectangle: 80 @ 80 extent: 40 @ 24. aCanvas drawTriangleFrom: 80 @ 80 to: 100 @ 60 and: 120 @ 80').
 
 self addSlideWithLayout
 	add: (PHLabel pageHeader: 'Projectional  Editing');
-	add: ((PHImage path: (self class imagePath: 'ast-vs-projection.png')) framed: false; align: #(center center)).
+	add: ((PHImage path: FileDirectory default / 'ast-vs-projection.png') framed: false; align: #(center center)).
 
 self addSlideWithLayout
 	add: (PHLabel pageHeader: 'Enter Projectional Editing').

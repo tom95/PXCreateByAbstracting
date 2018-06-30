@@ -1,11 +1,9 @@
 {
 	"class" : {
-		"basePath" : "cjg 6/30/2018 10:25",
-		"imagePath:" : "cjg 6/30/2018 10:36",
 		"open" : "TB 6/27/2018 10:38" },
 	"instance" : {
-		"initialize" : "cjg 6/30/2018 10:39",
-		"initialize01Background" : "cjg 6/30/2018 10:39",
+		"initialize" : "TB 6/29/2018 09:14",
+		"initialize01Background" : "TB 6/28/2018 19:52",
 		"initialize02Demo" : "TB 6/27/2018 10:40",
 		"initialize03ProjectionalEditors" : "TB 6/27/2018 10:50",
-		"initialize04Discussion" : "cjg 6/30/2018 10:37" } }
+		"initialize04Discussion" : "TB 6/29/2018 09:13" } }
