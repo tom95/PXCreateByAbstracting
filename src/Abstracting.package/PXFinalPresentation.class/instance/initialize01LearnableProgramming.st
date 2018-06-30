@@ -11,4 +11,4 @@ self addSlideWithLayout
 	add: (AnimatedImageMorph fromGIFFileNamed: (self class imagePath: 'Abstract4.gif') fullName).
 	
 self addSlideWithCenterBox
-	add: (PXDrawCanvasEditor fromSource: 'drawOn: aCanvas aCanvas drawRectangle: 80 @ 80 extent: 40 @ 24. aCanvas drawTriangleFrom: 80 @ 80 to: 100 @ 60 and: 120 @ 80').
+	add: (PXDrawCanvasEditor fromSource: 'drawOn: aCanvas aCanvas fillRectangle: (80 @ 80 extent: 40 @ 24) fillStyle: Color black. aCanvas drawTriangleFrom: 80 @ 80 to: 120 @ 80 and: 100 @ 60 color: Color black').
