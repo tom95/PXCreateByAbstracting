@@ -4,4 +4,4 @@ initialize04Discussion
 	self addSlideWithCenterBox
 		add: (PHLabel pageHeader: 'Expressing Intent');
 		add: (PHLabel subcategoryHeader: 'Vim');
-		add: (PHImage path: FileDirectory default / 'vim.png').
+		add: (PHImage path: (self imagePath: 'vim.png')).
