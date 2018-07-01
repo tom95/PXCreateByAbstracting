@@ -3,17 +3,20 @@ initialize
 	
 	super initialize.
 	
+	autosave := PHCheckboxWithLabel label: 'Autosave'.
+	saveButton := (PHButton icon: #iconSave)
+		disabled: true;
+		when: #clicked send: #triggerEvent: to: self with: #requestSave.
+	
 	self
 		addStyleClass: #pxCommandPalette;
 		addApplicationStyles: ((PHStyle for: #pxCommandPallette) spacing: 2);
 		vertical: true;
 		
-		add: (autosave := PHCheckboxWithLabel label: 'Autosave');
+		"add: (autosave);"
 		
 		add: (PHPage row
-			add: (saveButton := (PHButton icon: #iconSave)
-				disabled: true;
-				when: #clicked send: #triggerEvent: to: self with: #requestSave);
+			"add: (saveButton);"
 			add: (PHButtonGroup new
 				add: (undoButton := (PHButton icon: #iconUndo)
 					when: #clicked send: #triggerEvent: to: self with: #requestUndo);

@@ -4,7 +4,7 @@ beforeKeystroke: anEvent from: aTextEntry
 	(anEvent keyCharacter = Character escape and: [contextDropdown notNil]) ifTrue: [
 		self closeContextDropdown. ^ true].
 	
-	anEvent keyString = '<Cmd-e>' ifTrue: [self editor requestToggleEditor. ^ true].
+	anEvent keyString = '<Cmd-e>' ifTrue: [self method requestToggleEditor. ^ true].
 	
 	anEvent keyString = '<Ctrl-space>' ifTrue: [self displayContextActions. ^ true].
 

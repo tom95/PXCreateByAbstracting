@@ -1,8 +1,10 @@
 {
 	"class" : {
+		"doIt:" : "TB 7/1/2018 13:56",
 		"for:" : "TB 5/12/2018 10:54",
 		"for:of:" : "TB 5/16/2018 11:09",
-		"fromSource:in:" : "TB 5/9/2018 23:59" },
+		"fromSource:in:" : "TB 5/9/2018 23:59",
+		"minimalDoIt:" : "TB 7/1/2018 19:01" },
 	"instance" : {
 		"afterChangeFrom:" : "TB 6/24/2018 19:29",
 		"bubbleForInstanceVariable:" : "TB 6/24/2018 17:33",
@@ -13,4 +15,5 @@
 		"method" : "cjg 5/9/2018 14:03",
 		"method:" : "TB 6/30/2018 08:41",
 		"open:of:" : "TB 5/14/2018 12:00",
+		"showMethodPattern:" : "TB 7/1/2018 14:06",
 		"updateUndoRedo" : "TB 6/23/2018 22:53" } }

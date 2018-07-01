@@ -6,4 +6,4 @@ setFromSource: aString in: aClass
 	class := aClass.
 	
 	self add: method patternAsBubble.
-	self add: (method block asBubbleWithTemporaries: method temporaries)
+	self add: (method block asBubbleWithTemporaries: method temporaries stripTrailingReturnSelf: true)

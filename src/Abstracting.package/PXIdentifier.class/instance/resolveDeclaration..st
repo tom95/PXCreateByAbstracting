@@ -10,4 +10,7 @@ resolveDeclaration: aString
 	block := block owner containingBlock.
 	abort].
 	
-	^ declaration ifNil: [method contextClass instVarNames detect: [:name | name = aString] ifNone: []]
+	^ declaration ifNil: [method contextClass instVarNames
+			detect: [:name | name = aString]
+			ifNone: [
+				Smalltalk bindingOf: aString asSymbol]]
