@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createExampleTextEntry" : "TB 7/1/2018 11:52",
+		"exampleChanged" : "TB 7/1/2018 11:53",
+		"focus" : "TB 7/1/2018 11:09",
+		"initialize" : "TB 7/1/2018 11:51",
+		"regexConvertAction" : "TB 7/1/2018 11:02",
+		"toString" : "TB 7/1/2018 11:03",
+		"validRegex" : "TB 7/1/2018 11:36",
+		"validValue" : "TB 7/1/2018 11:13" } }

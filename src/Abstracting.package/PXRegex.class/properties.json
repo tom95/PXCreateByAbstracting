@@ -1,0 +1,14 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"examplePopover" ],
+	"name" : "PXRegex",
+	"pools" : [
+		 ],
+	"super" : "PXString",
+	"type" : "normal" }
