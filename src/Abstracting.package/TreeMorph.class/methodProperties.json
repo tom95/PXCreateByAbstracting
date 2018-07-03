@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"drawOn:" : "TB 7/3/2018 14:07",
-		"drawTreeOn:from:with:and:" : "TB 7/3/2018 14:11",
-		"drawTrunkOn:from:with:and:" : "TB 7/1/2018 19:15" } }
+		"drawOn:" : "TB 7/3/2018 19:40",
+		"drawTreeOn:from:length:angle:" : "TB 7/3/2018 17:07",
+		"drawTrunkOn:from:length:angle:" : "TB 7/3/2018 17:05" } }

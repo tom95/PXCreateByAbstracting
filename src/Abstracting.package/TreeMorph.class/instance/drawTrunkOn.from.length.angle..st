@@ -1,5 +1,5 @@
 as yet unclassified
-drawTrunkOn: aCanvas from: aPoint with: aLength and: anAngle
+drawTrunkOn: aCanvas from: aPoint length: aLength angle: anAngle
 	
 	| endPoint heading |
 	heading := (anAngle sin) @ (anAngle cos negated).

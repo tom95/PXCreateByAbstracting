@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"reset" : "TB 7/3/2018 17:17" },
+	"instance" : {
+		"drawOn:" : "TB 7/3/2018 19:44",
+		"drawTreeOn:from:length:angle:" : "TB 7/3/2018 19:44",
+		"drawTrunkOn:from:length:angle:" : "TB 7/3/2018 19:44" } }
