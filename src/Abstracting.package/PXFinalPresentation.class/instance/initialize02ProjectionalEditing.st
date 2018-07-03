@@ -39,7 +39,8 @@ self addSlideWithCenterBox
 	• meaning is <b>inherent</b>, tool projects <b>value</b>
 	• different projections with the <b>same meaning</b>
 	    (decimal, hexadecimal, slider, ...)
-	• can replace <b>entire objects</b> (e.g. tables, color pickers, ...)').
+	• can replace <b>entire objects</b> (e.g. tables, color pickers, ...)');
+	add: (PXRegex new createExampleTextEntry).
 
 treeMorph := TreeMorph new position: 0 @ 0; extent: 200 asPoint withScalingFactor.
 classEditor := (PXClassEditor for: TreeMorph)
