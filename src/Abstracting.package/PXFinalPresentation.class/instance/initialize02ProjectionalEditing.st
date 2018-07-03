@@ -18,10 +18,12 @@ self addSlideWithCenterBox
 	aCanvas fillRectangle: (20 @ y extent: 100 @ 100) fillStyle: Color red').
 
 self addSlideWithCenterBox
+	add: (self createHeading: 'Abstract Syntax Tree');
+	add: ((PHImage path: (self class imagePath: 'ast.png')) framed: false; align: #(center center)).
+
+self addSlideWithCenterBox
 	add: (self createSubheading: 'Projectional Editing - Our Approach');
-	add: (self createMarkup: '
-	• edits happen on <b>projections</b> of the existing AST
-	• every edit <b>directly modifies</b> the AST
+	add: (self createMarkup: '• edits happen on <b>projections</b> of the existing AST, modify it directly
 	• (hypothetically) always have a <i>syntactically</i> correct program');
 	add: ((PHImage path: (self class imagePath: 'ast-vs-projection.png')) framed: false; align: #(center center)).
 	
@@ -37,7 +39,7 @@ self addSlideWithCenterBox
 	add: (self createMarkup: '<b>regular editor:</b>
 	• need to change <b>characters</b> to change meaning
 	
-	<b>projectional editor:</b>
+<b>projectional editor:</b>
 	• meaning is <b>inherent</b>, tool projects <b>value</b>
 	• different projections with the <b>same meaning</b>
 	    (decimal, hexadecimal, slider, ...)

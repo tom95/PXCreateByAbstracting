@@ -74,9 +74,9 @@ self addSlideWithCenterBox
 	• adapt <b>tool support</b> (VCS, debugging)
 	• <b>performance optimizations</b>
 	• extended <b>test suite</b> (editor should always <i>feel</i> perfectly safe)').
-
+"
 self addSlideWithCenterBox
 	add: (PXMethodEditor doIt: 'Transcript show: ''Thank you!''; cr').
-	
+	"
 self addSlideWithCenterBox
 	add: PXDrawCanvasEditor hpiEditor
