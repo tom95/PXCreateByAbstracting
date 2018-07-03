@@ -12,5 +12,4 @@ resolveDeclaration: aString
 	
 	^ declaration ifNil: [method contextClass instVarNames
 			detect: [:name | name = aString]
-			ifNone: [
-				Smalltalk bindingOf: aString asSymbol]]
+			ifNone: [(Smalltalk bindingOf: aString asSymbol) ifNotNil: [PXVariableDeclaration name: aString]]]

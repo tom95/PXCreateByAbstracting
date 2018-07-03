@@ -8,6 +8,7 @@ self addSlideWithCenterBox
 
 self addSlideWithCenterBox
 	add: (PHLabel pageHeader: 'Learnable Programming');
+	add: (PHLabel subcategoryHeader: 'Create By Abstracting');
 	add: (PHMorphContainer new add: (AnimatedImageMorph fromGIFFileNamed: (self class imagePath: 'Abstract4.gif') fullName));
 	add: (PHLabel text: '
 	• start concrete
