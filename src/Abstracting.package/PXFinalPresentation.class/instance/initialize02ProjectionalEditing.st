@@ -1,7 +1,6 @@
 as yet unclassified
 initialize02ProjectionalEditing
 
-| classEditor treeMorph |
 self addSlideWithCenterBox
 	add: (PHLabel pageHeader: 'Our Requirements');
 	add: (PHLabel markup: '
@@ -41,12 +40,4 @@ self addSlideWithCenterBox
 	    (decimal, hexadecimal, slider, ...)
 	• can replace <b>entire objects</b> (e.g. tables, color pickers, ...)').
 
-treeMorph := TreeMorph new position: 0 @ 0; extent: 200 asPoint withScalingFactor.
-classEditor := (PXClassEditor for: TreeMorph)
-	expand: true;
-	when: #modified send: #changed to: treeMorph.
-
-self addSlideWithLayout
-	vertical: false;
-	add: classEditor;
-	add: (PHMorphContainer new ignoreLayout: true; position: 0 @ 0; extent: 200 @ 200; add: treeMorph)
+self buildDemoEditorOn: (self addSlideWithLayout vertical: false)
