@@ -4,10 +4,10 @@ initialize02ProjectionalEditing
 | classEditor treeMorph |
 self addSlideWithCenterBox
 	add: (PHLabel pageHeader: 'Our Requirements');
-	add: (PHLabel text: '
-	• deep integration between language concepts and editor
-	• every syntactic entity needs to be tangible
-	• syntactical correctness as often as possible -> live reload').
+	add: (PHLabel markup: '
+	• <b>deep integration</b> between language concepts and editor
+	• every syntactic entity needs to be <b>tangible</b>
+	• syntactical correctness as often as possible -> <b>live reload</b>').
 
 self addSlideWithCenterBox
 	add: (PHLabel pageHeader: 'Syntactical Entity vs Token');
@@ -20,11 +20,11 @@ self addSlideWithCenterBox
 
 self addSlideWithCenterBox
 	add: (PHLabel pageHeader: 'Projectional Editing');
-	add: ((PHImage path: (self class imagePath: 'ast-vs-projection.png')) framed: false; align: #(center center));
 	add: (PHLabel text: '
 	• edits happen on projections of the existing AST
 	• every edit directly modifies the AST
-	• (hypothetically) always have a syntactically correct program').
+	• (hypothetically) always have a syntactically correct program');
+	add: ((PHImage path: (self class imagePath: 'ast-vs-projection.png')) framed: false; align: #(center center)).
 	
 self addSlideWithCenterBox
 	add: (PHLabel pageHeader: 'Projections');
@@ -41,7 +41,7 @@ self addSlideWithCenterBox
 	    (decimal, hexadecimal, slider, ...)
 	• can replace entire objects (e.g. tables, color pickers, ...)').
 
-treeMorph := TreeMorph new extent: 200 asPoint withScalingFactor.
+treeMorph := TreeMorph new position: 0 @ 0; extent: 200 asPoint withScalingFactor.
 classEditor := (PXClassEditor for: TreeMorph)
 	expand: true;
 	when: #modified send: #changed to: treeMorph.
