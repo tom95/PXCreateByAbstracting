@@ -83,4 +83,4 @@ self addSlideWithCenterBox
 	add: (PXMethodEditor doIt: 'Transcript show: ''Thank you!''; cr').
 	
 self addSlideWithCenterBox
-	add: PXDrawCanvasEditor sampleEditor
+	add: PXDrawCanvasEditor hpiEditor
