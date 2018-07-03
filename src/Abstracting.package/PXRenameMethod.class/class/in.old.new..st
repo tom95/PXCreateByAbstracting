@@ -1,8 +1,8 @@
 as yet unclassified
-in: aClass old: aSymbol new: anotherSymbol
+in: aClass old: aSymbol new: aString
 
 	^ self new
 		ownerClass: aClass;
 		oldSelector: aSymbol;
-		newSelector: aSymbol;
+		newSource: aString;
 		yourself
