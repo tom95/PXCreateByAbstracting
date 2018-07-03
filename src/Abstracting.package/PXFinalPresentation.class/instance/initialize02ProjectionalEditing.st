@@ -31,7 +31,7 @@ self addSlideWithCenterBox
 	add: (PHPage row
 		add: (PHPage new minSize: 180 @ 180; add: ((PHTextArea text: '42') expand: true; align: #(center center)));
 		add: (PHWidget new minSize: 50 @ 100);
-		add: ((PXMethodEditor doIt: '42') commandPaletteVisible: false; showMethodPattern: false));
+		add: ((PXMethodEditor minimalDoIt: '42') commandPaletteVisible: false; showMethodPattern: false));
 	add: (PHLabel markup: '<b>regular editor:</b>
 	• need to change <b>characters</b> to change meaning
 	
@@ -40,7 +40,7 @@ self addSlideWithCenterBox
 	• different projections with the <b>same meaning</b>
 	    (decimal, hexadecimal, slider, ...)
 	• can replace <b>entire objects</b> (e.g. tables, color pickers, ...)');
-	add: (PXRegex new createExampleTextEntry).
+	add: (PXMethodEditor minimalDoIt: '''(\D+\.\D+)\d*@hpi\.de''').
 
 treeMorph := TreeMorph new position: 0 @ 0; extent: 200 asPoint withScalingFactor.
 classEditor := (PXClassEditor for: TreeMorph)
