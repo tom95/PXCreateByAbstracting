@@ -1,6 +1,7 @@
 as yet unclassified
 startDrag: anEvent
 
+	self updateCache.
 	self method visible: false.
 	anEvent hand newMouseFocus: self.
 	

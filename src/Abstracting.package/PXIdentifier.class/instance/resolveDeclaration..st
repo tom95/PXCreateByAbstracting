@@ -12,4 +12,5 @@ resolveDeclaration: aString
 	
 	^ declaration ifNil: [method contextClass instVarNames
 			detect: [:name | name = aString]
+			ifFound: [:name | self editor bubbleForInstanceVariable: name]
 			ifNone: [(Smalltalk bindingOf: aString asSymbol) ifNotNil: [PXVariableDeclaration name: aString]]]

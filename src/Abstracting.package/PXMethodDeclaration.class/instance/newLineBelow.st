@@ -1,5 +1,4 @@
 as yet unclassified
 newLineBelow
 
-	" ouch "
-	^ self owner owner block statements first newLineAbove
+	^ self owner block statements ifEmpty: [self owner block addStatement] ifNotEmpty: [:statements | statements first newLineAbove]

@@ -1,4 +1,4 @@
 as yet unclassified
 bubbleForInstanceVariable: aNameString
 
-	^ instanceVariables detect: [:name | name = aNameString]
+	^ instanceVariables submorphs detect: [:var | var name = aNameString] ifNone: []

@@ -13,6 +13,6 @@ contextActions
 			actions add: ((PHDropdownItem label: 'Declare new block temp var') when: #clicked send: #declareNewBlockVar to: self)].
 		
 		(self uneditedName notNil and: [(self resolveDeclaration: self uneditedName) notNil]) ifTrue: [
-			actions add: ((PHDropdownItem label: 'Rename declaration') when: #clicked send: #renameDeclaration to: self)]].
+			actions add: ((PHDropdownItem label: 'Rename ''', self uneditedName, ''' to ''', textEntry text, '''') when: #clicked send: #renameDeclaration to: self)]].
 	
 	^ actions

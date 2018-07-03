@@ -1,0 +1,18 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ownerClass",
+		"newSource",
+		"oldSource",
+		"category",
+		"oldSelector" ],
+	"name" : "PXRenameMethod",
+	"pools" : [
+		 ],
+	"super" : "PXCommand",
+	"type" : "normal" }

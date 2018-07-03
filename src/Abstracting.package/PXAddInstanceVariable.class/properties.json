@@ -1,0 +1,16 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ownerClass",
+		"variableName",
+		"editor" ],
+	"name" : "PXAddInstanceVariable",
+	"pools" : [
+		 ],
+	"super" : "PXCommand",
+	"type" : "normal" }

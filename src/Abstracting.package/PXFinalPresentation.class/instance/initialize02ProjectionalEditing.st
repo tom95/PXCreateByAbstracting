@@ -5,8 +5,8 @@ self addSlideWithCenterBox
 	add: (self createHeading: 'Our Requirements');
 	add: (self createMarkup: '
 	• <b>deep integration</b> between language concepts and editor
-	• every syntactic entity needs to be <b>tangible</b>
-	• syntactical correctness as often as possible -> <b>live reload</b>').
+	• syntactical correctness as often as possible -> <b>live reload</b>
+	• every syntactic entity needs to be <b>tangible</b>').
 
 self addSlideWithCenterBox
 	add: (self createHeading: 'Syntactical Entity vs Token');

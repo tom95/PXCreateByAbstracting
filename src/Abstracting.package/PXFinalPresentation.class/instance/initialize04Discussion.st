@@ -48,8 +48,6 @@ self addSlideWithCenterBox
 	add: (self createHeading: 'Things We Learned');
 	add: (self createMarkup: '
 	• <b>remove all syntax</b>
-	• <b>visualization:</b> <b>new color</b> per block
-	  - open question: how to fit large bubbles on screen for an overview
 	• first class <b>undo</b>
 	• <b>keyboard only</b> vs <b>mouse</b>
 	• even simple Smalltalk language has an <b>abundance of possible actions</b>').
@@ -60,14 +58,12 @@ self addSlideWithCenterBox
 	• <b>performance:</b> bubbles are costly, zooming not easy
 	• <b>detour</b> via generated codestring -> parser -> compiler
 	  - easier compilation
-	  - versioning support
+	  - tool compatibility
 	  - can''t attach extra info for projections (e.g. regex example)
-	  - unnecessary computation
 	• how to display <b>multiple or long methods</b>
 	• some aspects <b>mocked</b> (autocompletion), occasional crashes
 	• editor still feels <b>fragile</b>
-	• currently <b>requires basic smalltalk knowledge</b>
-	    (e.g. press <b>: key</b> to create keyword message, even though we don''t show the colon anymore)').
+	• currently <b>requires basic smalltalk knowledge</b>').
 
 self addSlideWithCenterBox
 	add: (self createHeading: 'Future Work');

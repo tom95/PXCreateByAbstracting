@@ -1,5 +1,6 @@
 as yet unclassified
 declareNewInstanceVar
 
-	self editor addInstanceVariable: self data.
-	self uneditedName: self data
+	self run: (PXAddInstanceVariable in: self editor named: self data).
+	self uneditedName: self data.
+	self changed

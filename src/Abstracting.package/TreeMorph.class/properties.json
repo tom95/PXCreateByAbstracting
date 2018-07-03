@@ -10,5 +10,5 @@
 	"name" : "TreeMorph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "FakeMorph",
 	"type" : "normal" }

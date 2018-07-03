@@ -7,13 +7,13 @@ buildFor: aClass
 		extent: self initialExtent;
 		add: (classDescription := PXPage column
 			add: ((PHLabel heading: aClass name) position: 10 @ 10);
-			add: (instanceVariables := PXPage row addAll: (aClass instVarNames collect: [:name | PXVariableDeclaration name: name]));
+			add: (instanceVariables := PXPage row addAll: (aClass instVarNames collect: [:name | PXVariableDeclaration instance: name]));
 			resizeToPreferred).
-		
-	aClass methodsDo: [:method | | methodBubble |
-		methodBubble := PXDraggableMethod new
-			method: (PXMethod for: method selector of: aClass);
-			position: 800 atRandom @ 800 atRandom;
-			yourself.
-		
-		self add: methodBubble]
+	
+	methods := Array streamContents: [:stream |
+		aClass methodsDo: [:method | 
+			stream nextPut: (PXDraggableMethod new
+				position: 800 atRandom @ 800 atRandom;
+				" first add, so that the editor reference is assured "
+				addTo: self;
+				method: (PXMethod for: method selector of: aClass))]]

@@ -4,4 +4,7 @@
 	"instance" : {
 		"drawOn:" : "TB 7/3/2018 19:40",
 		"drawTreeOn:from:length:angle:" : "TB 7/3/2018 17:07",
-		"drawTrunkOn:from:length:angle:" : "TB 7/3/2018 17:05" } }
+		"drawTrunkOn:from:length:angle:" : "TB 7/3/2018 17:05",
+		"initialize" : "TB 7/3/2018 21:05",
+		"step" : "TB 7/3/2018 20:58",
+		"stepTime" : "TB 7/3/2018 20:58" } }
