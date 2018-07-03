@@ -17,10 +17,9 @@ self addSlideWithCenterBox
 	add: (self createMarkup: '
 	uses <b>"guessing", autocompletion</b> and a <b>text-editor-like layout</b>, among other things
 	
-	Implementation below: <b>mbeddr</b>, MPS-based editor for <b>embedded C</b>
-	
-	');
-	add: (PHImage path: (self class imagePath: 'mbeddr.jpg')).
+	Implementation below: <b>mbeddr</b>, MPS-based editor for <b>embedded C</b>');
+	add: (PHImage path: (self class imagePath: 'graphicalSM.png'));
+	add: (PHLabel text: 'Souce: http://mbeddr.com/2015/03/05/graphicalSM.html').
 
 self addSlideWithCenterBox
 	add: (self createMarkup: '
