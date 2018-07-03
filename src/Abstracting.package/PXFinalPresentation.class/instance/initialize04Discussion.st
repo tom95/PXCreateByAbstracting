@@ -17,7 +17,8 @@ self addSlideWithCenterBox
 	Jetbrain''s MPS uses <b>"guessing", autocompletion</b> and a <b>text-editor-like layout</b>, among other things
 	
 	Implementation below: <b>mbeddr</b>, MPS-based editor for <b>embedded C</b>');
-	add: (PHImage path: (self class imagePath: 'mbeddr.jpg')).
+	add: (PHImage path: (self class imagePath: 'graphicalSM.png'));
+	add: (PHLabel text: 'Souce: http://mbeddr.com/2015/03/05/graphicalSM.html').
 
 self addSlideWithCenterBox
 	add: (PHLabel markup: '
@@ -74,7 +75,4 @@ self addSlideWithCenterBox
 	• extended <b>test suite</b> (editor should always <i>feel</i> perfectly safe)').
 
 self addSlideWithCenterBox
-	add: (PXMethodEditor doIt: 'Transcript show: ''Thank you!''; cr').
-	
-self addSlideWithCenterBox
-	add: (PXDrawCanvasEditor sampleEditor)
+	add: (PXMethodEditor doIt: 'Transcript show: ''Thank you!''; cr')
