@@ -4,9 +4,14 @@
 		"imagePath:" : "cjg 6/30/2018 10:36",
 		"open" : "TB 6/27/2018 10:38" },
 	"instance" : {
-		"buildDemoEditorOn:" : "TB 7/3/2018 18:29",
-		"initialize" : "cjg 7/3/2018 17:34",
-		"initialize00Title" : "cjg 7/3/2018 17:32",
-		"initialize01LearnableProgramming" : "TB 7/3/2018 08:42",
-		"initialize02ProjectionalEditing" : "TB 7/3/2018 17:19",
-		"initialize04Discussion" : "cjg 7/3/2018 17:13" } }
+		"buildDemoEditorOn:" : "TB 7/3/2018 17:41",
+		"createHeading:" : "TB 7/3/2018 19:17",
+		"createMarkup:" : "TB 7/3/2018 19:27",
+		"createSmallText:" : "TB 7/3/2018 19:48",
+		"createSubheading:" : "TB 7/3/2018 19:28",
+		"createText:" : "TB 7/3/2018 19:27",
+		"initialize" : "TB 7/3/2018 19:48",
+		"initialize00Title" : "TB 7/3/2018 19:26",
+		"initialize01LearnableProgramming" : "TB 7/3/2018 19:27",
+		"initialize02ProjectionalEditing" : "TB 7/3/2018 19:46",
+		"initialize04Discussion" : "TB 7/3/2018 19:49" } }

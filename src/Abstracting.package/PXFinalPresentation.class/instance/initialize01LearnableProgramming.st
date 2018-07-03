@@ -2,15 +2,15 @@ as yet unclassified
 initialize01LearnableProgramming
 
 self addSlideWithCenterBox
-	add: (PHLabel pageHeader: '„Learnable Programming“');
+	add: (self createHeading: '„Learnable Programming“');
 	add: ((PHImage path: (self class imagePath: 'learnable_programming.png')) align: #(center center));
-	add: (PHLabel text: 'http://worrydream.com/LearnableProgramming/').
+	add: (self createText: 'http://worrydream.com/LearnableProgramming/').
 
 self addSlideWithCenterBox
-	add: (PHLabel pageHeader: 'Learnable Programming');
-	add: (PHLabel subcategoryHeader: 'Create By Abstracting');
+	add: (self createHeading: 'Learnable Programming');
+	add: (self createSubheading: 'Create By Abstracting');
 	add: (PHMorphContainer new add: (AnimatedImageMorph fromGIFFileNamed: (self class imagePath: 'Abstract4.gif') fullName));
-	add: (PHLabel text: '
+	add: (self createText: '
 	• start concrete
 	• experiment
 	• abstract').

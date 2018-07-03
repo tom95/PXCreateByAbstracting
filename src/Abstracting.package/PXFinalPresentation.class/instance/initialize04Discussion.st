@@ -2,47 +2,49 @@ as yet unclassified
 initialize04Discussion
 
 self addSlideWithCenterBox 
-	add: (PHLabel pageHeader: 'Discussion').
+	add: (self createHeading: 'Discussion').
 
 self addSlideWithCenterBox
-	add: (PHLabel pageHeader: 'Speed of Usage');
-	add: (PHLabel markup: '
+	add: (self createHeading: 'Speed of Usage');
+	add: (self createMarkup: '
 	• graphical programming generally perceived to be <b>slower</b>
 	• early projectional editors required editing of <i>tree structures</i>');
 	add: ((PHImage path: (self class imagePath: 'projectional editing proficiency.png')) framed: false);
-	add: (PHLabel text: 'BERGER, Thorsten, et al. Efficiency of projectional editing: A controlled experiment. In: Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering. ACM, 2016. S. 763-774.').
+	add: (self createSmallText: 'BERGER, Thorsten, et al. Efficiency of projectional editing: A controlled experiment. In: Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering. ACM, 2016. S. 763-774.').
 
 self addSlideWithCenterBox
-	add: (PHLabel markup: '
-	Jetbrain''s MPS uses <b>"guessing", autocompletion</b> and a <b>text-editor-like layout</b>, among other things
+	add: (self createHeading: 'Jetbrain''s MPS');
+	add: (self createMarkup: '
+	uses <b>"guessing", autocompletion</b> and a <b>text-editor-like layout</b>, among other things
 	
-	Implementation below: <b>mbeddr</b>, MPS-based editor for <b>embedded C</b>');
-	add: (PHImage path: (self class imagePath: 'graphicalSM.png'));
-	add: (PHLabel text: 'Souce: http://mbeddr.com/2015/03/05/graphicalSM.html').
+	Implementation below: <b>mbeddr</b>, MPS-based editor for <b>embedded C</b>
+	
+	');
+	add: (PHImage path: (self class imagePath: 'mbeddr.jpg')).
 
 self addSlideWithCenterBox
-	add: (PHLabel markup: '
+	add: (self createMarkup: '
 	<b>Guessing:</b> space on a number means <b>sending a message</b>, <b>+</b> in a message name means <b>binary message</b>');
-	add: (PXMethodEditor minimalDoIt: '42').
+	add: ((PXMethodEditor minimalDoIt: '42') addUserStyles: ((PHStyle for: #pxEditor asStyle > #label) fontSize: 32)).
 
 self addSlideWithCenterBox
-	add: (PHLabel pageHeader: 'Expressing Intent');
-	add: (PHLabel markup: '
+	add: (self createHeading: 'Expressing Intent');
+	add: (self createMarkup: '
 	• vim: generally perceived to <b>boost editing speed</b>
 	• modes enable <b>minimal number of keystrokes</b> to express actions
 	• grammar to express <b>intent</b> to editor');
 	add: ((PHImage path: (self class imagePath: 'vim.png')) framed: false).
 
 self addSlideWithCenterBox
-	add: (PHLabel pageHeader: 'Expressing Intent');
-	add: (PHLabel markup: '
+	add: (self createHeading: 'Expressing Intent');
+	add: (self createMarkup: '
 	• instead of acting on a <b>text buffer</b>, we can act on <b>smalltalk code</b>
 	--> create grammar that <b>expresses this clearly</b>');
 	add: (PXMethodEditor doIt: '42 squared').
 
 self addSlideWithCenterBox
-	add: (PHLabel pageHeader: 'Things We Learned');
-	add: (PHLabel markup: '
+	add: (self createHeading: 'Things We Learned');
+	add: (self createMarkup: '
 	• <b>remove all syntax</b>
 	• <b>visualization:</b> <b>new color</b> per block
 	  - open question: how to fit large bubbles on screen for an overview
@@ -51,8 +53,8 @@ self addSlideWithCenterBox
 	• even simple Smalltalk language has an <b>abundance of possible actions</b>').
 
 self addSlideWithCenterBox
-	add: (PHLabel pageHeader: 'Limitations');
-	add: (PHLabel markup: '
+	add: (self createHeading: 'Limitations');
+	add: (self createMarkup: '
 	• <b>performance:</b> bubbles are costly, zooming not easy
 	• <b>detour</b> via generated codestring -> parser -> compiler
 	  - easier compilation
@@ -65,8 +67,8 @@ self addSlideWithCenterBox
 	• currently <b>requires basic smalltalk knowledge</b> (e.g. press <b>: key</b> to create keyword message, even though we don''t show the colon anymore)').
 
 self addSlideWithCenterBox
-	add: (PHLabel pageHeader: 'Future Work');
-	add: (PHLabel markup: '
+	add: (self createHeading: 'Future Work');
+	add: (self createMarkup: '
 	• advanced <b>refactoring tools</b>
 	• <b>more</b> projections, <b>more advanced</b> projections (replace entire blocks with UI)
 	• <b>storing</b> projection data
@@ -75,4 +77,7 @@ self addSlideWithCenterBox
 	• extended <b>test suite</b> (editor should always <i>feel</i> perfectly safe)').
 
 self addSlideWithCenterBox
-	add: (PXMethodEditor doIt: 'Transcript show: ''Thank you!''; cr')
+	add: (PXMethodEditor doIt: 'Transcript show: ''Thank you!''; cr').
+	
+self addSlideWithCenterBox
+	add: PXDrawCanvasEditor sampleEditor

@@ -4,7 +4,7 @@ buildDemoEditorOn: aSlide
 	| classEditor treeMorph container |
 	WorkingTreeMorph reset.
 	
-	treeMorph := WorkingTreeMorph new extent: 100 asPoint withScalingFactor.
+	treeMorph := WorkingTreeMorph new extent: 200 asPoint withScalingFactor.
 	classEditor := (PXClassEditor for: WorkingTreeMorph)
 		expand: true;
 		when: #modified send: #changed to: treeMorph.

@@ -2,15 +2,15 @@ as yet unclassified
 initialize02ProjectionalEditing
 
 self addSlideWithCenterBox
-	add: (PHLabel pageHeader: 'Our Requirements');
-	add: (PHLabel markup: '
+	add: (self createHeading: 'Our Requirements');
+	add: (self createMarkup: '
 	• <b>deep integration</b> between language concepts and editor
 	• every syntactic entity needs to be <b>tangible</b>
 	• syntactical correctness as often as possible -> <b>live reload</b>').
 
 self addSlideWithCenterBox
-	add: (PHLabel pageHeader: 'Syntactical Entity vs Token');
-	add: (PHLabel subcategoryHeader: 'Our First Prototype');
+	add: (self createHeading: 'Syntactical Entity vs Token');
+	add: (self createSubheading: 'Our First Prototype');
 	add: (ATTextEditor new text: 'drawOn: aCanvas
 	| x y |
 	x := 20.
@@ -18,20 +18,23 @@ self addSlideWithCenterBox
 	aCanvas fillRectangle: (20 @ y extent: 100 @ 100) fillStyle: Color red').
 
 self addSlideWithCenterBox
-	add: (PHLabel pageHeader: 'Projectional Editing');
-	add: (PHLabel markup: '
+	add: (self createSubheading: 'Projectional Editing - Our Approach');
+	add: (self createMarkup: '
 	• edits happen on <b>projections</b> of the existing AST
 	• every edit <b>directly modifies</b> the AST
 	• (hypothetically) always have a <i>syntactically</i> correct program');
 	add: ((PHImage path: (self class imagePath: 'ast-vs-projection.png')) framed: false; align: #(center center)).
 	
 self addSlideWithCenterBox
-	add: (PHLabel pageHeader: 'Projections');
+	add: (self createHeading: 'Projections');
 	add: (PHPage row
 		add: (PHPage new minSize: 180 @ 180; add: ((PHTextArea text: '42') expand: true; align: #(center center)));
 		add: (PHWidget new minSize: 50 @ 100);
-		add: ((PXMethodEditor doIt: '42') commandPaletteVisible: false; showMethodPattern: false));
-	add: (PHLabel markup: '<b>regular editor:</b>
+		add: ((PXMethodEditor minimalDoIt: '42')
+			addUserStyles: ((PHStyle for: #pxEditor asStyle > #label) fontSize: 24)));
+	add: ((PXMethodEditor minimalDoIt: '''(\D+\.\D+)\d*@hpi\.de''')
+			addUserStyles: ((PHStyle for: #pxEditor asStyle > #label) fontSize: 24));
+	add: (self createMarkup: '<b>regular editor:</b>
 	• need to change <b>characters</b> to change meaning
 	
 	<b>projectional editor:</b>
