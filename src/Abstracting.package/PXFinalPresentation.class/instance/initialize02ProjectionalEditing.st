@@ -32,7 +32,7 @@ self addSlideWithCenterBox
 		add: (PHWidget new minSize: 50 @ 100);
 		add: ((PXMethodEditor minimalDoIt: '42')
 			addUserStyles: ((PHStyle for: #pxEditor asStyle > #label) fontSize: 24)));
-	add: ((PXMethodEditor minimalDoIt: '''(\D+\.\D+)\d*@hpi\.de''')
+	add: ((PXMethodEditor minimalDoIt: '''(\D+\.\D+\d*@hpi\.de''')
 			addUserStyles: ((PHStyle for: #pxEditor asStyle > #label) fontSize: 24));
 	add: (self createMarkup: '<b>regular editor:</b>
 	• need to change <b>characters</b> to change meaning

@@ -10,14 +10,17 @@ self addSlideWithCenterBox
 	• graphical programming generally perceived to be <b>slower</b>
 	• early projectional editors required editing of <i>tree structures</i>');
 	add: ((PHImage path: (self class imagePath: 'projectional editing proficiency.png')) framed: false);
-	add: (self createSmallText: 'BERGER, Thorsten, et al. Efficiency of projectional editing: A controlled experiment. In: Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering. ACM, 2016. S. 763-774.').
+	add: (self createSmallText: 'BERGER, Thorsten, et al. Efficiency of projectional editing: A controlled experiment.
+	In: Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering. ACM, 2016. S. 763-774.').
 
 self addSlideWithCenterBox
 	add: (self createHeading: 'Jetbrain''s MPS');
 	add: (self createMarkup: '
 	uses <b>"guessing", autocompletion</b> and a <b>text-editor-like layout</b>, among other things
 	
-	Implementation below: <b>mbeddr</b>, MPS-based editor for <b>embedded C</b>');
+	Implementation below: <b>mbeddr</b>, MPS-based editor for <b>embedded C</b>
+	
+	');
 	add: (PHImage path: (self class imagePath: 'graphicalSM.png'));
 	add: (PHLabel text: 'Souce: http://mbeddr.com/2015/03/05/graphicalSM.html').
 
@@ -63,7 +66,8 @@ self addSlideWithCenterBox
 	• how to display <b>multiple or long methods</b>
 	• some aspects <b>mocked</b> (autocompletion), occasional crashes
 	• editor still feels <b>fragile</b>
-	• currently <b>requires basic smalltalk knowledge</b> (e.g. press <b>: key</b> to create keyword message, even though we don''t show the colon anymore)').
+	• currently <b>requires basic smalltalk knowledge</b>
+	    (e.g. press <b>: key</b> to create keyword message, even though we don''t show the colon anymore)').
 
 self addSlideWithCenterBox
 	add: (self createHeading: 'Future Work');
