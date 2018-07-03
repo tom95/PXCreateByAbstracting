@@ -20,10 +20,10 @@ self addSlideWithCenterBox
 
 self addSlideWithCenterBox
 	add: (PHLabel pageHeader: 'Projectional Editing');
-	add: (PHLabel text: '
-	• edits happen on projections of the existing AST
-	• every edit directly modifies the AST
-	• (hypothetically) always have a syntactically correct program');
+	add: (PHLabel markup: '
+	• edits happen on <b>projections</b> of the existing AST
+	• every edit <b>directly modifies</b> the AST
+	• (hypothetically) always have a <i>syntactically</i> correct program');
 	add: ((PHImage path: (self class imagePath: 'ast-vs-projection.png')) framed: false; align: #(center center)).
 	
 self addSlideWithCenterBox
@@ -32,14 +32,14 @@ self addSlideWithCenterBox
 		add: (PHPage new minSize: 180 @ 180; add: ((PHTextArea text: '42') expand: true; align: #(center center)));
 		add: (PHWidget new minSize: 50 @ 100);
 		add: ((PXMethodEditor doIt: '42') commandPaletteVisible: false; showMethodPattern: false));
-	add: (PHLabel text: 'regular editor:' asText allBold,'
-	• need to change characters to change meaning
+	add: (PHLabel markup: '<b>regular editor:</b>
+	• need to change <b>characters</b> to change meaning
 	
-', ('projectional editor:') asText allBold,'
-	• meaning is inherent, tool projects value
-	• different projections with the same meaning
+	<b>projectional editor:</b>
+	• meaning is <b>inherent</b>, tool projects <b>value</b>
+	• different projections with the <b>same meaning</b>
 	    (decimal, hexadecimal, slider, ...)
-	• can replace entire objects (e.g. tables, color pickers, ...)').
+	• can replace <b>entire objects</b> (e.g. tables, color pickers, ...)').
 
 treeMorph := TreeMorph new position: 0 @ 0; extent: 200 asPoint withScalingFactor.
 classEditor := (PXClassEditor for: TreeMorph)
@@ -49,4 +49,4 @@ classEditor := (PXClassEditor for: TreeMorph)
 self addSlideWithLayout
 	vertical: false;
 	add: classEditor;
-	add: (PHMorphContainer new ignoreLayout: true; position: 200 @ 200; add: treeMorph)
+	add: (PHMorphContainer new ignoreLayout: true; position: 0 @ 0; extent: 200 @ 200; add: treeMorph)
