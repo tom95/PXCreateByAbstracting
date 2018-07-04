@@ -6,6 +6,6 @@ afterKeystroke: anEvent from: aTextEntry previous: aString
 	aTextEntry text notEmpty ifTrue: [
 		(self isValidForPart: aTextEntry text)
 			ifFalse: [^ aTextEntry textKeepCursor: aString]
-			ifTrue: [^ self run: (PXRenameMethod in: self editor contextClass old: aString new: self method codeString)]].
+			ifTrue: [^ self run: (PXRenameMethod in: self editor old: aString new: self method codeString)]].
 	
 	super afterKeystroke: anEvent from: aTextEntry previous: aString

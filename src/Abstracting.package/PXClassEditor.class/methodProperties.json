@@ -3,6 +3,8 @@
 		"for:" : "TB 6/23/2018 17:24" },
 	"instance" : {
 		"addInstanceVariable:" : "TB 6/24/2018 18:32",
+		"addMethodFromSource:" : "TB 7/4/2018 02:14",
+		"addMethodNamed:bubble:" : "TB 7/4/2018 02:11",
 		"afterChangeFrom:" : "TB 6/24/2018 19:31",
 		"bubbleForInstanceVariable:" : "TB 7/4/2018 00:26",
 		"buildFor:" : "TB 7/4/2018 00:25",
@@ -14,4 +16,5 @@
 		"initialExtent" : "TB 6/23/2018 17:50",
 		"initialize" : "TB 6/23/2018 17:41",
 		"methods" : "TB 7/4/2018 00:25",
-		"mouseDown:" : "TB 6/26/2018 14:06" } }
+		"mouseDown:" : "TB 6/26/2018 14:06",
+		"removeMethodNamed:" : "TB 7/4/2018 02:13" } }

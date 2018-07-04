@@ -1,0 +1,4 @@
+accessing
+methods
+
+	^ {self method}

@@ -1,13 +1,17 @@
 {
 	"class" : {
-		"in:old:new:" : "TB 7/4/2018 00:43" },
+		"in:old:new:" : "TB 7/4/2018 01:42" },
 	"instance" : {
 		"category" : "TB 7/3/2018 23:55",
-		"do" : "TB 7/4/2018 00:46",
+		"do" : "TB 7/4/2018 02:04",
+		"editor" : "TB 7/4/2018 01:42",
+		"editor:" : "TB 7/4/2018 01:42",
 		"newSource" : "TB 7/4/2018 00:43",
 		"newSource:" : "TB 7/3/2018 23:54",
+		"notifyChangesFromRenamed" : "TB 7/4/2018 02:03",
 		"oldSelector" : "TB 7/3/2018 23:57",
 		"oldSelector:" : "TB 7/4/2018 00:49",
 		"ownerClass" : "TB 7/3/2018 23:52",
 		"ownerClass:" : "TB 7/3/2018 23:52",
-		"undo" : "TB 7/4/2018 00:47" } }
+		"searchRenames" : "TB 7/4/2018 02:04",
+		"undo" : "TB 7/4/2018 02:03" } }

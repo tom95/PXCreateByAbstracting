@@ -10,7 +10,9 @@
 		"newSource",
 		"oldSource",
 		"category",
-		"oldSelector" ],
+		"oldSelector",
+		"editor",
+		"renamed" ],
 	"name" : "PXRenameMethod",
 	"pools" : [
 		 ],

@@ -2,9 +2,12 @@
 	"class" : {
 		"reset" : "TB 7/3/2018 21:07" },
 	"instance" : {
-		"drawOn:" : "TB 7/4/2018 01:19",
-		"drawTreeOn:from:length:angle:" : "TB 7/4/2018 01:19",
-		"drawTrunkOn:from:length:angle:" : "TB 7/4/2018 01:19",
-		"initialize" : "TB 7/4/2018 01:19",
-		"step" : "TB 7/4/2018 01:19",
-		"stepTime" : "TB 7/4/2018 01:19" } }
+		"angle" : "TB 7/4/2018 01:57",
+		"drawOn:" : "TB 7/4/2018 02:15",
+		"drawTreeOn:from:length:angle:" : "TB 7/4/2018 02:15",
+		"drawTrunkOn:from:length:angle:" : "TB 7/4/2018 02:15",
+		"extcted" : "TB 7/4/2018 02:15",
+		"initialize" : "TB 7/4/2018 02:15",
+		"nil" : "TB 7/4/2018 02:13",
+		"step" : "TB 7/4/2018 02:15",
+		"stepTime" : "TB 7/4/2018 02:15" } }

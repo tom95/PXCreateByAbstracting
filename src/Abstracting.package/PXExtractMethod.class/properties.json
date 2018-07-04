@@ -1,0 +1,16 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"replaceAction",
+		"editor",
+		"selector" ],
+	"name" : "PXExtractMethod",
+	"pools" : [
+		 ],
+	"super" : "PXBubbleAction",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Abstracting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"editor",
+		"selector",
+		"source" ],
+	"name" : "PXDeleteMethod",
+	"pools" : [
+		 ],
+	"super" : "PXBubbleAction",
+	"type" : "normal" }

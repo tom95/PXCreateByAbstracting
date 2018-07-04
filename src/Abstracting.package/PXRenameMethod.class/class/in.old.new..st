@@ -1,8 +1,9 @@
 as yet unclassified
-in: aClass old: aSymbol new: aString
+in: anEditor old: aSymbol new: aString
 
 	^ self new
-		ownerClass: aClass;
+		editor: anEditor;
+		ownerClass: anEditor contextClass;
 		oldSelector: aSymbol;
 		newSource: aString;
 		yourself

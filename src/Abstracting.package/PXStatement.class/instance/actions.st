@@ -9,6 +9,7 @@ actions
 		PXUseAsReceiver.
 		PXUseAsArgument.
 		PXReplaceByVariable.
+		PXExtractMethod.
 		PXDeleteSelf.
 		PXDeleteOuter.
 		PXCopy.
